@@ -1,0 +1,9 @@
+{
+  "topic_id": "BT12",
+  "slug": "skolko-stoit-ded-moroz",
+  "cover_family": "macro_detail",
+  "status": "COVER_BLOCKER",
+  "cover_png": null,
+  "reason": "В user-mcp-kv нет gpt-image-2. Есть flux2-pro, grok-imagine, nano_banana_pro и z-image. Модель не подменялась. Лица не генерировались. AURA_BLOG_COVER_PROMPTS.json не дополнялся: status awaiting_topics, topics [].",
+  "date": "2026-10-29"
+}

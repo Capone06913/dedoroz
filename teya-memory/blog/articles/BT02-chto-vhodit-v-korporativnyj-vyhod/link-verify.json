@@ -1,0 +1,35 @@
+{
+  "source": "c:/Users/sasha/Desktop/dedoroz/teya-memory/blog/articles/BT02-chto-vhodit-v-korporativnyj-vyhod/article.html",
+  "total_links": 3,
+  "failed_count": 0,
+  "verdict": "pass",
+  "links": [
+    {
+      "url": "/blog/skolko-stoit-ded-moroz-v-nizhnem-novgorode/",
+      "kind": "internal_relative",
+      "status": null,
+      "ok": true,
+      "skipped": true,
+      "method": null,
+      "error": "relative link; pass --site-base to verify"
+    },
+    {
+      "url": "/",
+      "kind": "internal_relative",
+      "status": null,
+      "ok": true,
+      "skipped": true,
+      "method": null,
+      "error": "relative link; pass --site-base to verify"
+    },
+    {
+      "url": "/ded-moroz-v-restoran/",
+      "kind": "internal_relative",
+      "status": null,
+      "ok": true,
+      "skipped": true,
+      "method": null,
+      "error": "relative link; pass --site-base to verify"
+    }
+  ]
+}

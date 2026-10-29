@@ -1,0 +1,20 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
+
+# Logs & caches
+*.log
+.npm/
+node_modules/
+
+# Local agent / IDE (optional heavy caches)
+.cursor/projects/

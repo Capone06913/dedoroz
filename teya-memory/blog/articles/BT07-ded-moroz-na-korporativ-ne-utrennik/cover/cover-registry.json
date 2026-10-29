@@ -1,0 +1,17 @@
+{
+  "topic_id": "BT07",
+  "slug": "ded-moroz-na-korporativ-ne-utrennik",
+  "status": "COVER_BLOCKER",
+  "cover_family": "macro_detail",
+  "local_path": null,
+  "generated_at": null,
+  "tool_required": "gpt-image-2",
+  "tool_present_in_user_mcp_kv": false,
+  "substitution": "not_used",
+  "faces_generated": false,
+  "prompt_source": "teya-memory/design/AURA_BLOG_COVER_PROMPTS.json",
+  "prompt_file_status": "awaiting_topics",
+  "topics_array_empty": true,
+  "topic_scene_descriptor": null,
+  "reason": "В user-mcp-kv нет gpt-image-2. AURA_BLOG_COVER_PROMPTS.json пуст: topics []. Другая модель не вызывалась. Лица не рисовались."
+}

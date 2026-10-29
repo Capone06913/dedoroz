@@ -1,0 +1,80 @@
+{
+  "source_type": "brief_plus_live_frames",
+  "reference_url": null,
+  "copy_in_copy": false,
+  "competitor_sites_are_not_source": true,
+  "must_match": [
+    "Переключатель Шоу/Классика меняет кадр и одну строку",
+    "Три карточки 8000, 10000, 15000 остаются на месте",
+    "Липкий телефон +7 (952) 451-65-79 на мобильном",
+    "Лица только из ded/",
+    "Без эмодзи, без полноэкранного снега, без тяжёлой 3D"
+  ],
+  "must_not": [
+    "Копировать чужое КП и композицию конкурентов",
+    "Семейные 6500 на первом экране",
+    "Генерировать лица артистов и гостей",
+    "Пять образов",
+    "Ансамбль как обещание труппы на главной",
+    "НДС, ООО, УПД, ИНН",
+    "Эмодзи и мультяшный снег"
+  ],
+  "sections": [
+    {
+      "id": "header",
+      "layers": ["имя", "город", "телефон"],
+      "objects": [],
+      "background": "#FFFBF6",
+      "cards": [],
+      "transition_out": "none"
+    },
+    {
+      "id": "hero",
+      "layers": ["photo", "bottom-scrim", "title", "toggle", "one-line", "price-column"],
+      "objects": ["show-hero", "classic-hero"],
+      "background": "#141218",
+      "cards": ["exit-8000", "show-10000", "welcome-15000"],
+      "transition_out": "photo-overlap-40"
+    },
+    {
+      "id": "boundary",
+      "layers": ["text", "photo-show-dance"],
+      "objects": ["show-dance"],
+      "background": "#F7F1E8",
+      "cards": [],
+      "transition_out": "hairline"
+    },
+    {
+      "id": "flow",
+      "layers": ["three-steps", "photo-welcome"],
+      "objects": ["welcome-guest"],
+      "background": "#FFFBF6",
+      "cards": ["step-meet", "step-toast", "step-photo"],
+      "transition_out": "photo-overlap-24"
+    },
+    {
+      "id": "halls",
+      "layers": ["two-photos", "name-list-without-quotes"],
+      "objects": ["hall-banquet", "stage-vocal"],
+      "background": "#F7F1E8",
+      "cards": [],
+      "transition_out": "straight-to-documents"
+    },
+    {
+      "id": "documents",
+      "layers": ["facts", "photo-classic-studio"],
+      "objects": ["classic-studio"],
+      "background": "#EFE6D8",
+      "cards": ["payment-card"],
+      "transition_out": "hard-cut-to-night"
+    },
+    {
+      "id": "booking",
+      "layers": ["phone", "form"],
+      "objects": [],
+      "background": "#141218",
+      "cards": ["lead-form"],
+      "transition_out": "footer"
+    }
+  ]
+}

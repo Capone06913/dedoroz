@@ -1,0 +1,53 @@
+{
+  "source": "c:/Users/sasha/Desktop/dedoroz/teya-memory/blog/articles/BT01-skolko-stoit-ded-moroz-v-nizhnem-novgorode/article.html",
+  "total_links": 5,
+  "failed_count": 0,
+  "verdict": "pass",
+  "links": [
+    {
+      "url": "/blog/chto-vhodit-v-korporativnyj-vyhod/",
+      "kind": "internal_relative",
+      "status": null,
+      "ok": true,
+      "skipped": true,
+      "method": null,
+      "error": "relative link; pass --site-base to verify"
+    },
+    {
+      "url": "/ded-moroz-na-dom/",
+      "kind": "internal_relative",
+      "status": null,
+      "ok": true,
+      "skipped": true,
+      "method": null,
+      "error": "relative link; pass --site-base to verify"
+    },
+    {
+      "url": "/ded-moroz-v-detskij-sad/",
+      "kind": "internal_relative",
+      "status": null,
+      "ok": true,
+      "skipped": true,
+      "method": null,
+      "error": "relative link; pass --site-base to verify"
+    },
+    {
+      "url": "/",
+      "kind": "internal_relative",
+      "status": null,
+      "ok": true,
+      "skipped": true,
+      "method": null,
+      "error": "relative link; pass --site-base to verify"
+    },
+    {
+      "url": "/blog/oplata-deda-moroza-dlya-yurlica/",
+      "kind": "internal_relative",
+      "status": null,
+      "ok": true,
+      "skipped": true,
+      "method": null,
+      "error": "relative link; pass --site-base to verify"
+    }
+  ]
+}

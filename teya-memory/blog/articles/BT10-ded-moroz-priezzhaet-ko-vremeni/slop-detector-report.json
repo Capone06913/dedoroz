@@ -1,0 +1,18 @@
+{
+  "verdict": "pass",
+  "total_slop_hits": 0,
+  "slop_hits": [],
+  "total_over_long_sentences": 1,
+  "over_long_sentences": [
+    {
+      "sentence": "Как проверяют дату: Имя, телефон и дата → час, зал и формат → если час занят, другое время в тот же день → имена и запретные темы до приезда → выход с 9:00, трезвые, ко времени",
+      "word_count": 31
+    }
+  ],
+  "readability": {
+    "score": 72.0,
+    "level": "Easy (Standard modern readable web content)",
+    "avg_sentence_len": 8.7,
+    "avg_syllables_per_word": 2.1
+  }
+}

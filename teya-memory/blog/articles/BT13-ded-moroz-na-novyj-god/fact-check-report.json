@@ -1,0 +1,94 @@
+{
+  "article": "article.html",
+  "fact_bank_source": "c:/Users/sasha/Desktop/dedoroz/teya-memory/research/fact-bank.md",
+  "verdict": "pass",
+  "total_extracted_facts": 12,
+  "verified_facts_count": 7,
+  "unverified_facts_count": 5,
+  "facts": [
+    {
+      "fact": "2026",
+      "kind": "date_or_year",
+      "context": "т песню или стих, а не человека в зал. 28 октября 2026 точная фраза в Нижнем Новгороде дала 194 показа. Э",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2025",
+      "kind": "date_or_year",
+      "context": "ё здесь нет. Широкий запрос «дед мороз» в декабре 2025 по городу — 163 643 показа. Туда вместе входят пес",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "25 минут",
+      "kind": "metric_or_duration",
+      "context": "ечере, не от слова «Новый год» в заявке. Выход 20–25 минут стоит 14 920 ₽. Куплета в нём нет. Шоу 30 минут с",
+      "verified": true,
+      "reason": "Numerical value '25' matched in fact-bank context"
+    },
+    {
+      "fact": "30 минут",
+      "kind": "metric_or_duration",
+      "context": "0–25 минут стоит 14 920 ₽. Куплета в нём нет. Шоу 30 минут стоит 19 920 ₽. Один из пары поёт куплет. Welcome",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "194",
+      "kind": "large_number",
+      "context": "октября 2026 точная фраза в Нижнем Новгороде дала 194 показа. Это окно Wordstat, не декабрь и не число з",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "163 643",
+      "kind": "large_number",
+      "context": "кий запрос «дед мороз» в декабре 2025 по городу — 163 643 показа. Туда вместе входят песни, фильмы, резиденц",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "648",
+      "kind": "large_number",
+      "context": "нельзя. «Заказать деда мороза» в том же декабре — 648 показов, 87% с телефона. «Дед мороз на корпоратив»",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "471",
+      "kind": "large_number",
+      "context": "азов, 87% с телефона. «Дед мороз на корпоратив» — 471 показ, 57% с телефона. Это уже другие запросы. Они",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "14 920",
+      "kind": "large_number",
+      "context": "ова «Новый год» в заявке. Выход 20–25 минут стоит 14 920 ₽. Куплета в нём нет. Шоу 30 минут стоит 19 920 ₽",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "19 920",
+      "kind": "large_number",
+      "context": "т 14 920 ₽. Куплета в нём нет. Шоу 30 минут стоит 19 920 ₽. Один из пары поёт куплет. Welcome на час стоит",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "24 920",
+      "kind": "large_number",
+      "context": "₽. Один из пары поёт куплет. Welcome на час стоит 24 920 ₽. Тот же куплет звучит уже в зале. Час по столик",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "34 920",
+      "kind": "large_number",
+      "context": "е куплет звучит уже в зале. Час по столикам стоит 34 920 ₽. Сцены с куплетом там нет. Это не четыре карточ",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    }
+  ]
+}

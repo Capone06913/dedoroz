@@ -1,0 +1,26 @@
+{
+  "source": "teya-memory/blog/articles/BT11-kak-zakazat-deda-moroza/article.html",
+  "total_links": 2,
+  "failed_count": 0,
+  "verdict": "pass",
+  "links": [
+    {
+      "url": "/",
+      "kind": "internal_relative",
+      "status": null,
+      "ok": true,
+      "skipped": true,
+      "method": null,
+      "error": "relative link; pass --site-base to verify"
+    },
+    {
+      "url": "/kontakty/",
+      "kind": "internal_relative",
+      "status": null,
+      "ok": true,
+      "skipped": true,
+      "method": null,
+      "error": "relative link; pass --site-base to verify"
+    }
+  ]
+}

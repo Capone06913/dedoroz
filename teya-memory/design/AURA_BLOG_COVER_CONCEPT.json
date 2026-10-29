@@ -1,0 +1,39 @@
+{
+  "concept_version": "1",
+  "cover_family": "macro_detail",
+  "cover_family_label_ru": "Крупный план детали",
+  "allowed_cover_families_considered": ["macro_detail", "editorial_photo", "frame_border"],
+  "cover_family_selection_rationale": "Лица на сайте только живые. Обложка блога не имеет права на сгенерированного человека, поэтому серия строится на макроматериале костюма: пайетка, мех, пуговица, микрофон.",
+  "secondary_cover_families": [],
+  "prompt_assembly_mode": "prefix_scene_suffix",
+  "global_prompt_prefix": "Macro photograph, 16:9, of a single New Year costume material, no people, no faces, no beard, no hands, no children, no cartoon. Dark banquet background #141218, warm practical light from the upper left, shallow depth of field. Brand colors only as they exist in the object: cranberry sequin #6E1A28, ivory fur #F7F1E8, gold thread #8A6232, a small edge of classic blue #1E4F86 if the scene asks for embroidery.",
+  "global_prompt_suffix": "Thumbnail-safe, subject near center, no text, no letters, no logo, no watermark, no snowflake overlay, no confetti storm, no 3D character, no illustration. Same series lighting every time.",
+  "global_negative_prompt": "people, face, eyes, beard, Santa, Snow Maiden, child, hands, emoji, text, letters, watermark, cartoon snow, snowflakes covering frame, clay render, mascot, champagne glasses, five costumes, neon",
+  "composition_lock": {
+    "aspect_ratio": "16:9",
+    "target_size": "1200x675",
+    "layout_description": "Один материал по центру, около 60% кадра, фон уходит в ночь зала",
+    "thumbnail_safe_zone": "center"
+  },
+  "color_lock": {
+    "background": "#141218",
+    "primary_accent": "#6E1A28",
+    "secondary_accent": "#8A6232",
+    "paper": "#F7F1E8",
+    "classic_blue": "#1E4F86"
+  },
+  "fixed_elements": ["macro crop", "upper-left warm light", "dark hall background", "no text"],
+  "variable_per_topic": ["which material is in focus"],
+  "topic_archetypes": {
+    "informational": {"scene_bias": "one calm material, more ivory fur than red"},
+    "how_to": {"scene_bias": "microphone mesh or staff wood, still no hands"},
+    "case": {"scene_bias": "sequin and fur together, still no people"},
+    "local": {"scene_bias": "same macro, a hint of warm hall bokeh, no skyline, no landmark that needs a fake sign"}
+  },
+  "style_anchor": {
+    "status": "blocked",
+    "reason": "gpt-image-2 отсутствует в user-mcp-kv",
+    "local_path": null,
+    "prompt_used": "Use global_prompt_prefix plus scene: extreme close-up of red sequin next to white fur and one gold button, no people."
+  }
+}

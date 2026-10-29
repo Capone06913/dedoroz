@@ -1,0 +1,110 @@
+{
+  "minimum_homepage_visual_assets": 6,
+  "minimum_meaningful_image_assets_homepage": 6,
+  "asset_instance_count_homepage": 7,
+  "css_cards_do_not_count": true,
+  "pages": [
+    {"slug": "/", "minimum_meaningful_image_assets": 6, "asset_instance_count": 7},
+    {"slug": "/korporativ/", "minimum_meaningful_image_assets": 3, "asset_instance_count": 3},
+    {"slug": "/na-dom/", "minimum_meaningful_image_assets": 2, "asset_instance_count": 2},
+    {"slug": "/sad-i-shkola/", "minimum_meaningful_image_assets": 1, "asset_instance_count": 1},
+    {"slug": "/zayavka/", "minimum_meaningful_image_assets": 1, "asset_instance_count": 1}
+  ],
+  "zones": [
+    {
+      "id": "hero-show",
+      "page": "/",
+      "source_has_image": true,
+      "counts_as_meaningful_image": true,
+      "asset_instance_id": "show-hero",
+      "can_reuse_asset_id": null,
+      "reuse_reason": null,
+      "file": "ded/_3yUX6_JGfVSxXzR_Dw1KT2VyRMw6fYWSbwigr3t9H966zmR9aZkRISYFT3K-bRUiiDnXb9Yy7jil8nefktsHJC-.jpg",
+      "required": true
+    },
+    {
+      "id": "hero-classic",
+      "page": "/",
+      "source_has_image": true,
+      "counts_as_meaningful_image": true,
+      "asset_instance_id": "classic-hero",
+      "can_reuse_asset_id": null,
+      "reuse_reason": null,
+      "file": "ded/kE_Bj5f-pRnkzgU4S8drxsOc7tCR0TFJOGCwTGBZLpMvVmUw-SPsf3_gAx89trELdg2ANm6xXwDGYzwsSB9ML19-.jpg",
+      "required": true
+    },
+    {
+      "id": "hall-dance",
+      "page": "/",
+      "source_has_image": true,
+      "counts_as_meaningful_image": true,
+      "asset_instance_id": "show-dance",
+      "can_reuse_asset_id": null,
+      "reuse_reason": null,
+      "file": "ded/0mAvSQ0NTjbReWpA2jg2ZBMpRyeShDDnxjEkx6PjNhAOz9OdU922vBLau98z6Opakj9nr59MCssz0MLFY7iLcXxc.jpg",
+      "required": true
+    },
+    {
+      "id": "hall-guest",
+      "page": "/",
+      "source_has_image": true,
+      "counts_as_meaningful_image": true,
+      "asset_instance_id": "welcome-guest",
+      "can_reuse_asset_id": null,
+      "reuse_reason": null,
+      "file": "ded/Mbwo7z_crvUczFV99y0T3BjvH0RwleIY0XP-ZnMtNE2s5METzmTFYldH_c4deHcm-yo0_-C2_eRx3k-jkm6wxkrd.jpg",
+      "required": true
+    },
+    {
+      "id": "hall-banquet",
+      "page": "/",
+      "source_has_image": true,
+      "counts_as_meaningful_image": true,
+      "asset_instance_id": "hall-banquet",
+      "can_reuse_asset_id": null,
+      "reuse_reason": null,
+      "file": "ded/ZXYykbO-br5yxyg0Q9IWPknMEkEQuMEsDkZTZSVV8eqVJh84vHITd-Cy2zrTBzBHOhueRWzijhuvm5f00KIhFMD9.jpg",
+      "required": true
+    },
+    {
+      "id": "stage-vocal",
+      "page": "/",
+      "source_has_image": true,
+      "counts_as_meaningful_image": true,
+      "asset_instance_id": "stage-vocal",
+      "can_reuse_asset_id": null,
+      "reuse_reason": null,
+      "file": "ded/0G-YK-mD9zbMxh6kgQe2V7geL8YtE8XS6lDD4s35dsxsKQC3Zn_QMESs_KFdn66HbkQROulRA2K2Dkbb8q6ECikS.jpg",
+      "required": true
+    },
+    {
+      "id": "hall-studio",
+      "page": "/",
+      "source_has_image": true,
+      "counts_as_meaningful_image": true,
+      "asset_instance_id": "classic-studio",
+      "can_reuse_asset_id": null,
+      "reuse_reason": null,
+      "file": "ded/vFWxtai6DQoAmysSDsUENH8UHC54imzD0WrqUSZmMABUanCQmrzwXoN1LUJFd9A9Kvd2cpohdyAMt9aX6Sq-jMl6.jpg",
+      "required": true
+    },
+    {
+      "id": "price-cards",
+      "page": "/",
+      "source_has_image": false,
+      "counts_as_meaningful_image": false,
+      "asset_instance_id": "price-cards-css",
+      "can_reuse_asset_id": null,
+      "reuse_reason": "Полупрозрачная рейка цен, не изображение и не белый конверт"
+    },
+    {
+      "id": "ensemble-held",
+      "page": null,
+      "source_has_image": true,
+      "counts_as_meaningful_image": false,
+      "asset_instance_id": "ensemble-group",
+      "can_reuse_asset_id": null,
+      "reuse_reason": "Ансамбль не ставится на витрину пары"
+    }
+  ]
+}

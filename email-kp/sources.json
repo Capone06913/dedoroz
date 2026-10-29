@@ -1,0 +1,23 @@
+{
+  "kie_seedream": {
+    "hero_kie": {
+      "file": "images/hero-kie.jpg",
+      "prompt": "Wide cinematic email hero — Ded Moroz and Snegurochka, burgundy/gold banquet, Seedream 4.5",
+      "temp_url": "https://tempfile.aiquickdraw.com/seedream4.5/1793262648333-rauvjc7xpxd.jpeg",
+      "task_id": "d7bf72c9df1bb91e9c1684ed9b95f4ec"
+    },
+    "band_decor": {
+      "file": "images/band-decor.jpg",
+      "prompt": "Burgundy/cream decorative email band, no text",
+      "temp_url": "https://tempfile.aiquickdraw.com/seedream4.5/1793262673560-kyxpa1ro95.jpeg",
+      "task_id": "4f6ed7d644f40abdf3e27b78fb1e3384"
+    }
+  },
+  "live_photos": [
+    "images/team-studio.jpg",
+    "images/team-spread.jpg",
+    "images/team-stage.jpg",
+    "images/with-guests.jpg"
+  ],
+  "note": "Перед рассылкой залейте images/ на хостинг и укажите IMG_BASE в index.html (абсолютный URL со слэшем на конце)."
+}

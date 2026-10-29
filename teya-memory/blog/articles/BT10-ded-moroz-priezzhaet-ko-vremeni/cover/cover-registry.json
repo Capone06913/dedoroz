@@ -1,0 +1,9 @@
+{
+  "topic_id": "BT10",
+  "slug": "ded-moroz-priezzhaet-ko-vremeni",
+  "cover_family": "macro_detail",
+  "status": "COVER_BLOCKER",
+  "file": null,
+  "reason": "gpt-image-2 отсутствует в user-mcp-kv. AURA_BLOG_COVER_PROMPTS.json пуст: topics=[], status=awaiting_topics. Сцена BT10 не собрана. Модель не подменялась. Лица не генерировались.",
+  "date": "2026-10-29"
+}

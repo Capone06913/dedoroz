@@ -1,0 +1,153 @@
+{
+  "pages": [
+    {
+      "slug": "/",
+      "sections": [
+        {
+          "id": "hero",
+          "background": "full-viewport live photo, price rail rgba(20,18,24,0.72)",
+          "visuals": ["show-hero", "classic-hero"],
+          "cards": ["8000", "10000", "15000"],
+          "cards_layout": "horizontal-row-on-bottom-edge",
+          "rejected_layout": "two email columns",
+          "transition": "transition-hero-to-program",
+          "motion": "crossfade 700ms of photo and one line, 0ms if reduced motion",
+          "blockers": []
+        },
+        {
+          "id": "restaurant-program",
+          "background": "#141218 narrow column, #F7F1E8 wide list",
+          "visuals": [],
+          "cards": ["8000", "10000", "15000"],
+          "copy_lock": "Песня, флешмоб и обход столов не входят в 15–20 минут. Вокал не входит в 8 000.",
+          "transition": "transition-program-to-halls",
+          "motion": "none",
+          "blockers": []
+        },
+        {
+          "id": "halls",
+          "background": "#141218 frame grid",
+          "visuals": ["hall-banquet", "stage-vocal", "show-dance", "welcome-guest", "classic-studio"],
+          "cards": [],
+          "copy_lock": "Имена площадок без цитат. Не подписывать фото чужим кейсом. Сетка кадров, не одна фото к абзацу.",
+          "transition": "transition-halls-to-documents",
+          "motion": "none",
+          "blockers": ["На кадре танцпола водяной знак фотографа, кроп угла если пара цела"]
+        },
+        {
+          "id": "routes",
+          "background": "#6E1A28 and #EFE6D8, unequal widths",
+          "visuals": [],
+          "cards": [],
+          "copy_lock": "Семейные 6 500 на главную не ставить",
+          "transition": "transition-halls-to-documents",
+          "motion": "none",
+          "blockers": []
+        },
+        {
+          "id": "documents",
+          "background": "#EFE6D8",
+          "visuals": [],
+          "cards": ["чек самозанятого", "безнал"],
+          "transition": "transition-documents-to-booking",
+          "motion": "none",
+          "blockers": ["ИНН не выдумывать"]
+        },
+        {
+          "id": "booking",
+          "background": "#141218",
+          "visuals": [],
+          "cards": ["form"],
+          "transition": "footer",
+          "motion": "none",
+          "blockers": []
+        }
+      ]
+    },
+    {
+      "slug": "/korporativ/",
+      "sections": [
+        {
+          "id": "page-hero",
+          "background": "#141218",
+          "visuals": ["show-hero"],
+          "cards": [],
+          "transition": "overlap 32px onto ivory",
+          "motion": "none",
+          "blockers": []
+        },
+        {
+          "id": "formats-long",
+          "background": "#F7F1E8",
+          "visuals": ["show-dance", "stage-vocal", "welcome-guest"],
+          "cards": ["вход", "шоу", "welcome"],
+          "transition": "hairline between cards",
+          "motion": "none",
+          "blockers": []
+        },
+        {
+          "id": "booking-band",
+          "background": "#141218",
+          "visuals": [],
+          "cards": ["phone"],
+          "transition": "hard-cut",
+          "motion": "none",
+          "blockers": []
+        }
+      ]
+    },
+    {
+      "slug": "/na-dom/",
+      "sections": [
+        {
+          "id": "home-hero",
+          "background": "#F7F1E8",
+          "visuals": ["family-home"],
+          "cards": [],
+          "transition": "photo overlaps price band 24px",
+          "motion": "none",
+          "blockers": []
+        },
+        {
+          "id": "home-prices",
+          "background": "#FFFBF6",
+          "visuals": ["family-visit"],
+          "cards": ["6500", "8000"],
+          "transition": "hairline",
+          "motion": "none",
+          "blockers": ["Не выводить эти цены на главную"]
+        }
+      ]
+    },
+    {
+      "slug": "/sad-i-shkola/",
+      "sections": [
+        {
+          "id": "school-hero",
+          "background": "#F7F1E8",
+          "visuals": ["classic-studio"],
+          "cards": ["от 10000"],
+          "transition": "overlap 24px",
+          "motion": "none",
+          "blockers": ["Цена от даты и места, не выдумывать сетку сумм"],
+          "note": "classic-studio здесь допустим как повтор: другая страница, подпись другая. На главной тот же файл занят документами, на этой странице он про образ для учреждения."
+        }
+      ]
+    },
+    {
+      "slug": "/zayavka/",
+      "sections": [
+        {
+          "id": "lead",
+          "background": "#141218",
+          "visuals": ["stage-vocal"],
+          "cards": ["form"],
+          "transition": "фото справа на desktop заходит под край формы на 16px",
+          "motion": "none",
+          "blockers": [],
+          "note": "stage-vocal повторяется со страницы корпоратива осознанно: боковой кадр заявки. reuse_reason: тот же выход со звуком, другая композиционная роль — фон формы, не герой."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "topic_id": "BT11",
+  "slug": "kak-zakazat-deda-moroza",
+  "cover_family": "macro_detail",
+  "status": "COVER_BLOCKER",
+  "file": null,
+  "tool_required": "gpt-image-2",
+  "faces": "not_generated",
+  "model_substitution": false,
+  "reason": "В user-mcp-kv нет gpt-image-2. AURA_BLOG_COVER_PROMPTS.json пуст: topics=[], status=awaiting_topics. Сцена BT11 не собрана. Модель не подменялась. Лица не генерировались.",
+  "date": "2026-10-29"
+}

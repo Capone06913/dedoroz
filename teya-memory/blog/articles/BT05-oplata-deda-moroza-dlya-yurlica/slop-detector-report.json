@@ -1,0 +1,18 @@
+{
+  "verdict": "pass",
+  "total_slop_hits": 0,
+  "slop_hits": [],
+  "total_over_long_sentences": 1,
+  "over_long_sentences": [
+    {
+      "sentence": "Документ или реквизит Что можно сказать Чек самозанятого Да, это рабочий способ Безнал Да, второй рабочий способ НДС, УПД, счёт организации Сайт не обещает ИНН, ОГРН, адрес, email, имя самозанятого В брифе нет, в статью не ставятся Часы, когда Надежда берёт трубку, тоже не подтверждены",
+      "word_count": 45
+    }
+  ],
+  "readability": {
+    "score": 59.6,
+    "level": "Standard (Intellectual editorial/expert text)",
+    "avg_sentence_len": 7.9,
+    "avg_syllables_per_word": 2.3
+  }
+}

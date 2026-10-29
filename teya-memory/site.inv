@@ -1,0 +1,137 @@
+# Teya site intake. Ded Moroz NN. 2026-10-28.
+# Секретов нет. Деплой выключен.
+
+[project]
+site_name = Дед Мороз и Снегурочка. Нижний Новгород
+theme_slug = dedmoroz-nn
+language = ru-RU
+region = Нижний Новгород
+primary_goal = leads
+public_site_url =
+
+[business]
+company_name = Дед Мороз и Снегурочка
+short_description = Выездные Дед Мороз и Снегурочка для кафе, ресторанов, корпоративов и HR в Нижнем Новгороде и области. Несколько пар, самозанятые.
+legal_name =
+inn =
+ogrn =
+address =
+city = Нижний Новгород
+country = Россия
+working_hours = Выходы с 9:00. Часы ответа телефона не подтверждены.
+
+[contacts]
+phone = +7 (952) 451-65-79
+email =
+telegram =
+whatsapp =
+vk = https://vk.ru/ded.moroz.nnov
+youtube =
+max =
+cta_url = tel:+79524516579
+cta_text = Позвонить Надежде
+
+[design]
+reference_url =
+reference_screenshot = ded/
+style_notes = Динамический первый экран. Переключатель Шоу/Классика. Три карточки корпоратива. Живые кадры из ded/, не сгенерированные лица. Чужое КП не копировать.
+visual_must_keep = Реальные фото пары и залов. Пайетки как шоу. Классика вторым образом. Телефон Надежды.
+visual_must_avoid = Эмодзи в интерфейсе. Детский красный шаблон. Пять выдуманных образов. Мультяшный снег. Прозрачные кнопки. Чёрный текст на чёрном.
+required_visual_zones = hero, formats, cases, documents, booking
+minimum_homepage_visual_assets = 6
+minimum_meaningful_image_assets_homepage = 4
+allow_mcp_image_generation = yes
+allow_background_removal = yes
+must_keep = ded/
+must_avoid = generated faces of artists and guests
+logo_path =
+brand_colors =
+fonts =
+
+[content]
+niche = Выездной Дед Мороз и Снегурочка, B2B Нижний Новгород
+services = Корпоратив 15-20 мин 8000; шоу 30 мин 10000; Welcome 60 мин 15000. Семья и сад на отдельных страницах.
+products =
+target_audience = Кафе, рестораны, HR, менеджеры площадок, юрлица Нижнего Новгорода и области
+competitors = Party Stars, Зажги ded-moroz-nn.ru, Гришаев ded-moroz.info, Смайл, Аблинов, чужое КП 15000/20000/25000
+exclude_topics = Политика, пошлость, война, НДС, ООО, выдуманный стаж
+existing_content_path = docs/RYNOK-NN-2026.md, docs/OFFER-KORPORATIV.md
+blog_required = yes
+starter_blog_posts = 3
+
+[seo]
+wordstat_region = 47
+priority_search = yandex,google
+google_verification =
+yandex_verification =
+metrika_counter_id =
+robots_host =
+google_search_console_property =
+yandex_webmaster_site =
+allow_ai_crawlers = yes
+generate_llms_txt = yes
+old_url_map_path =
+
+[local_seo]
+yandex_business_url =
+google_business_profile_url =
+twogis_url =
+maps_embed_preference = yandex
+service_area = Нижний Новгород, Дзержинск, Арзамас, Кстово, Нижегородская область
+geo_latitude =
+geo_longitude =
+business_category = Организация праздников
+reviews_url = https://vk.ru/ded.moroz.nnov
+
+[analytics]
+ga4_measurement_id =
+gtm_container_id =
+metrika_counter_id =
+track_phone_clicks = yes
+track_email_clicks = yes
+track_messenger_clicks = yes
+track_form_submit = yes
+track_cta_clicks = yes
+
+[forms]
+lead_form_required = yes
+lead_form_fields = name,phone,date,venue_type,message
+smtp_required = no
+smtp_credentials_file = teya-memory/smtp.credentials.local
+crm_webhook_url =
+telegram_notify_chat =
+anti_spam = honeypot,nonce
+
+[wordpress]
+wp_admin_url =
+wp_admin_user =
+wp_cli_available = no
+permalink_structure = /%postname%/
+existing_theme_slug =
+target_theme_slug = dedmoroz-nn
+
+[hosting]
+deploy_mode = local-only
+credentials_file = teya-memory/teya.env.local
+ftp_host =
+ftp_port = 21
+ftp_user =
+ftp_remote_theme_path =
+ssh_host =
+ssh_port = 22
+ssh_user =
+ssh_theme_path =
+public_theme_url =
+
+[legal]
+privacy_policy_required = yes
+cookies_policy_required = yes
+personal_data_consent_required = yes
+offer_required = no
+
+[automation]
+allow_publish = no
+allow_activate_theme = no
+allow_create_pages = yes
+allow_create_posts = yes
+allow_clear_cache = no

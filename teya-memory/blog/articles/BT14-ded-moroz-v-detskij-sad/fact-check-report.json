@@ -1,0 +1,45 @@
+{
+  "article": "c:/Users/sasha/Desktop/dedoroz/teya-memory/blog/articles/BT14-ded-moroz-v-detskij-sad/article.html",
+  "fact_bank_source": "c:/Users/sasha/Desktop/dedoroz/teya-memory/research/fact-bank.md",
+  "verdict": "pass",
+  "total_extracted_facts": 5,
+  "verified_facts_count": 5,
+  "unverified_facts_count": 0,
+  "facts": [
+    {
+      "fact": "2025",
+      "kind": "date_or_year",
+      "context": "му уже сидит внутри слов «от 10 000 ₽». В декабре 2025 фраза «дед мороз в детский сад» дала 580 показов в",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2024",
+      "kind": "date_or_year",
+      "context": "ороде. В ноябре было 436, в октябре 29. В декабре 2024 показов было 913, к декабрю 2025 их стало на 36% м",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "90 минут",
+      "kind": "metric_or_duration",
+      "context": "ависит сумма Метки длительности: 15, 30, 45, 60 и 90 минут. Это длина выхода, не три готовые суммы и не табл",
+      "verified": true,
+      "reason": "Numerical value '90' matched in fact-bank context"
+    },
+    {
+      "fact": "10 000",
+      "kind": "large_number",
+      "context": "е визит в квартиру и не номер на банкете. Вход от 10 000 ₽. Минуты на выбор: 15, 30, 45, 60 или 90. Сумма",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "580",
+      "kind": "large_number",
+      "context": "декабре 2025 фраза «дед мороз в детский сад» дала 580 показов в городе. В ноябре было 436, в октябре 29.",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "topic_id": "BT09",
+  "slug": "skolko-stoit-ded-moroz-31-dekabrya",
+  "cover_family": "macro_detail",
+  "status": "COVER_BLOCKER",
+  "cover_png": null,
+  "reason": "В user-mcp-kv нет gpt-image-2. AURA_BLOG_COVER_PROMPTS.json пуст: status awaiting_topics, topics []. Модель не подменялась. Лица не генерировались.",
+  "date": "2026-10-29"
+}

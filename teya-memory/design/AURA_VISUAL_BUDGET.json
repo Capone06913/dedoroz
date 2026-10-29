@@ -1,0 +1,57 @@
+{
+  "doctrine": "Плотный взрослый вечер: живые кадры, цветные секции, свои карточки. Не белый generic-шаблон.",
+  "pages": [
+    {
+      "slug": "/",
+      "build_in_test": true,
+      "minimum_colored_sections": 4,
+      "minimum_meaningful_image_assets": 6,
+      "minimum_decorative_motifs": 1,
+      "minimum_overlap_compositions": 1,
+      "minimum_custom_cards": 3,
+      "minimum_non_rectangular_transitions": 1,
+      "notes": "Мотив — золотая линия 1px, не снег. Непрямоугольный стык — нижний градиент кадра и overlap 40px."
+    },
+    {
+      "slug": "/korporativ/",
+      "build_in_test": true,
+      "minimum_colored_sections": 3,
+      "minimum_meaningful_image_assets": 3,
+      "minimum_decorative_motifs": 1,
+      "minimum_overlap_compositions": 1,
+      "minimum_custom_cards": 3,
+      "minimum_non_rectangular_transitions": 1
+    },
+    {
+      "slug": "/na-dom/",
+      "build_in_test": true,
+      "minimum_colored_sections": 3,
+      "minimum_meaningful_image_assets": 2,
+      "minimum_decorative_motifs": 1,
+      "minimum_overlap_compositions": 1,
+      "minimum_custom_cards": 2,
+      "minimum_non_rectangular_transitions": 1
+    },
+    {
+      "slug": "/sad-i-shkola/",
+      "build_in_test": true,
+      "minimum_colored_sections": 3,
+      "minimum_meaningful_image_assets": 1,
+      "minimum_decorative_motifs": 1,
+      "minimum_overlap_compositions": 1,
+      "minimum_custom_cards": 1,
+      "minimum_non_rectangular_transitions": 1,
+      "notes": "Не рисовать детский мульт-набор ради плотности."
+    },
+    {
+      "slug": "/zayavka/",
+      "build_in_test": true,
+      "minimum_colored_sections": 2,
+      "minimum_meaningful_image_assets": 1,
+      "minimum_decorative_motifs": 1,
+      "minimum_overlap_compositions": 1,
+      "minimum_custom_cards": 1,
+      "minimum_non_rectangular_transitions": 1
+    }
+  ]
+}

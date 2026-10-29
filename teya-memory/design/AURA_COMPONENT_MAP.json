@@ -1,0 +1,15 @@
+{
+  "components": [
+    {"id": "site-header", "token": "surface-lowest", "notes": "Имя, город, телефон текстом"},
+    {"id": "mode-toggle", "token": "toggle-segment", "notes": "radiogroup Шоу/Классика, капсула"},
+    {"id": "hero-line", "token": "display-lg", "notes": "Курсив Cormorant, одна меняющаяся строка"},
+    {"id": "price-card", "token": "card-price", "notes": "8 000 / 10 000 / 15 000, золотая линия сверху"},
+    {"id": "button-call", "token": "button-primary", "notes": "Сплошная, не прозрачная"},
+    {"id": "button-vk", "token": "button-secondary", "notes": "Тёмная сплошная на светлом, светлая обводка не вместо заливки"},
+    {"id": "sticky-call", "token": "sticky-call", "notes": "Только до 767px"},
+    {"id": "input", "token": "input-field", "notes": "Высота 48px, focus синий"},
+    {"id": "payment-card", "token": "card-price", "notes": "Чек самозанятого и безнал, без ИНН"},
+    {"id": "minute-chip", "token": "toggle-segment", "notes": "Только страница сада, не главная"},
+    {"id": "photo-frame", "token": "rounded.md", "notes": "12px, кроме героя в край окна на desktop"}
+  ]
+}

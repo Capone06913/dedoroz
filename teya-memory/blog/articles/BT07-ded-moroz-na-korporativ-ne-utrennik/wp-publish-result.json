@@ -1,0 +1,13 @@
+{
+  "status": "not_published",
+  "reason": "allow_publish=no",
+  "deploy_mode": "local-only",
+  "allow_publish": "no",
+  "publish": "no",
+  "topic_id": "BT07",
+  "slug": "ded-moroz-na-korporativ-ne-utrennik",
+  "date": "2026-10-29",
+  "wordpress": "not_called",
+  "public_site_url": null,
+  "note": "Домена нет. excalibur-wp-publish не запускался."
+}

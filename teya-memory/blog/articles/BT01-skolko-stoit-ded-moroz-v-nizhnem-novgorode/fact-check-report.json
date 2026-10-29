@@ -1,0 +1,136 @@
+{
+  "article": "c:/Users/sasha/Desktop/dedoroz/teya-memory/blog/articles/BT01-skolko-stoit-ded-moroz-v-nizhnem-novgorode/article.html",
+  "fact_bank_source": "c:/Users/sasha/Desktop/dedoroz/teya-memory/research/fact-bank.md",
+  "verdict": "pass",
+  "total_extracted_facts": 18,
+  "verified_facts_count": 14,
+  "unverified_facts_count": 4,
+  "facts": [
+    {
+      "fact": "2026",
+      "kind": "date_or_year",
+      "context": "До 1 декабря 2026 пара Деда Мороза и Снегурочки в Нижнем Новгороде с",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2025",
+      "kind": "date_or_year",
+      "context": "елефону. Фразу «стоимость деда мороза» в городе в 2025 году искали раньше заказа. В ноябре Вордстат показ",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2024",
+      "kind": "date_or_year",
+      "context": "ордстат показал 227 раз, в декабре 134. К декабрю 2024 это плюс 24%. Показ — не заявка и не человек. Фраз",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "30 минут",
+      "kind": "metric_or_duration",
+      "context": "о закрывает короткий выход. Песню берите только с 30 минут. Встречу гостей у входа берите часом. На три корп",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "20 минут",
+      "kind": "metric_or_duration",
+      "context": "мат брать: офису с тостом и общим фото хватает 15–20 минут за 8 000 ₽. Залу, где ждут куплет и короткие конк",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "8 000",
+      "kind": "large_number",
+      "context": "а. Цены трёх площадок не смешиваются. Корпоратив: 8 000, 10 000 или 15 000 ₽. Дом: 6 500 или 8 000 ₽. Сад",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "10 000",
+      "kind": "large_number",
+      "context": "трёх площадок не смешиваются. Корпоратив: 8 000, 10 000 или 15 000 ₽. Дом: 6 500 или 8 000 ₽. Сад и школа:",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "15 000",
+      "kind": "large_number",
+      "context": "док не смешиваются. Корпоратив: 8 000, 10 000 или 15 000 ₽. Дом: 6 500 или 8 000 ₽. Сад и школа: от 10 000",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "6 500",
+      "kind": "large_number",
+      "context": "тся. Корпоратив: 8 000, 10 000 или 15 000 ₽. Дом: 6 500 или 8 000 ₽. Сад и школа: от 10 000 ₽. После 1 дек",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "227",
+      "kind": "large_number",
+      "context": "у искали раньше заказа. В ноябре Вордстат показал 227 раз, в декабре 134. К декабрю 2024 это плюс 24%. П",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "20 8 000",
+      "kind": "large_number",
+      "context": "нуты Цена до 1 декабря 2026 Живой куплет Выход 15–20 8 000 ₽ нет Шоу 30 10 000 ₽ да Welcome 60 15 000 ₽ да Р",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "30 10 000",
+      "kind": "large_number",
+      "context": "бря 2026 Живой куплет Выход 15–20 8 000 ₽ нет Шоу 30 10 000 ₽ да Welcome 60 15 000 ₽ да Рекомендация такая. Т",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "60 15 000",
+      "kind": "large_number",
+      "context": "ыход 15–20 8 000 ₽ нет Шоу 30 10 000 ₽ да Welcome 60 15 000 ₽ да Рекомендация такая. Тост и фото закрывает ко",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "25 000",
+      "kind": "large_number",
+      "context": "и «по столикам» в прайсе нет. Чужое КП с часом за 25 000 ₽ к этому формату не прибавляется. Рыночный файл",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "8 500",
+      "kind": "large_number",
+      "context": "считывались. Короткий корпоратив до пика: медиана 8 500 ₽, цена компании 8 000 ₽. Тридцать минут рабочих",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "10 500",
+      "kind": "large_number",
+      "context": "10 000 ₽, цена компании та же. Час: ранняя точка 10 500 ₽, пиковая медиана 18 750 ₽ вместе с чужим КП, це",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "18 750",
+      "kind": "large_number",
+      "context": "а же. Час: ранняя точка 10 500 ₽, пиковая медиана 18 750 ₽ вместе с чужим КП, цена компании 15 000 ₽. Скид",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2026 6 500",
+      "kind": "large_number",
+      "context": "но для семьи 15–20 минут 25–30 минут До 1 декабря 2026 6 500 ₽ 8 000 ₽ 31 декабря 8 500 ₽ 10 000 ₽ Ночь для се",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    }
+  ]
+}

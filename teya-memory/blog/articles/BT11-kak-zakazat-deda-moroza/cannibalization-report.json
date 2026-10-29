@@ -1,0 +1,28 @@
+{
+  "verdict": "fail",
+  "total_issues": 2,
+  "issues": [
+    {
+      "severity": "fail",
+      "type": "duplicate_primary_query",
+      "message": "CRITICAL: Articles 'BT01-skolko-stoit-ded-moroz-v-nizhnem-novgorode' and 'BT12-skolko-stoit-ded-moroz' share the EXACT SAME primary query: 'стоимость деда мороза'",
+      "articles": [
+        "BT01-skolko-stoit-ded-moroz-v-nizhnem-novgorode",
+        "BT12-skolko-stoit-ded-moroz"
+      ],
+      "query": "стоимость деда мороза"
+    },
+    {
+      "severity": "warning",
+      "type": "primary_secondary_cannibalization",
+      "message": "WARNING: Primary query of 'BT11-kak-zakazat-deda-moroza' ('заказать деда мороза') highly overlaps with secondary query of 'BT10-ded-moroz-priezzhaet-ko-vremeni' ('заказать деда мороза на дату'). Similarity: 75%",
+      "articles": [
+        "BT10-ded-moroz-priezzhaet-ko-vremeni",
+        "BT11-kak-zakazat-deda-moroza"
+      ],
+      "primary_query": "заказать деда мороза",
+      "secondary_query": "заказать деда мороза на дату",
+      "similarity": 0.75
+    }
+  ]
+}

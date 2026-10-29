@@ -1,0 +1,66 @@
+{
+  "article": "c:/Users/sasha/Desktop/dedoroz/teya-memory/blog/articles/BT08-v-kakom-formate-ded-moroz-poyot/article.html",
+  "fact_bank_source": "c:/Users/sasha/Desktop/dedoroz/teya-memory/research/fact-bank.md",
+  "verdict": "pass",
+  "total_extracted_facts": 8,
+  "verified_facts_count": 4,
+  "unverified_facts_count": 4,
+  "facts": [
+    {
+      "fact": "2026",
+      "kind": "date_or_year",
+      "context": "Новгороде поёт не в каждом формате. До 1 декабря 2026 один из пары берёт живой куплет в шоу на 30 минут",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "30 минут",
+      "kind": "metric_or_duration",
+      "context": "бря 2026 один из пары берёт живой куплет в шоу на 30 минут за 19 920 ₽ и во Welcome на час за 24 920 ₽. В вы",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "25 минут",
+      "kind": "metric_or_duration",
+      "context": "₽ и во Welcome на час за 24 920 ₽. В выходе на 20–25 минут за 14 920 ₽ песни нет: там тост, интерактив со ст",
+      "verified": true,
+      "reason": "Numerical value '25' matched in fact-bank context"
+    },
+    {
+      "fact": "60 минут",
+      "kind": "metric_or_duration",
+      "context": "минут, 14 920 ₽ Шоу, 30 минут, 19 920 ₽ Welcome, 60 минут, 24 920 ₽ По столикам, 60 минут, 34 920 ₽ Живой к",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "19 920",
+      "kind": "large_number",
+      "context": "н из пары берёт живой куплет в шоу на 30 минут за 19 920 ₽ и во Welcome на час за 24 920 ₽. В выходе на 20",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "24 920",
+      "kind": "large_number",
+      "context": "оу на 30 минут за 19 920 ₽ и во Welcome на час за 24 920 ₽. В выходе на 20–25 минут за 14 920 ₽ песни нет:",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "14 920",
+      "kind": "large_number",
+      "context": "me на час за 24 920 ₽. В выходе на 20–25 минут за 14 920 ₽ песни нет: там тост, интерактив со столов и общ",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "34 920",
+      "kind": "large_number",
+      "context": "рактив со столов и общее фото. Час по столикам за 34 920 ₽ идёт у стола и сцену с куплетом не держит. Ниже",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    }
+  ]
+}

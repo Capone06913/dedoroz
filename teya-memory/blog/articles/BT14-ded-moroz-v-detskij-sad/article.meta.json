@@ -1,0 +1,46 @@
+{
+  "topic_id": "BT14",
+  "slug": "ded-moroz-v-detskij-sad",
+  "h1": "Дед Мороз в детский сад: что спросить до утренника",
+  "primary_query": "дед мороз в детский сад",
+  "secondary_queries": [
+    "дед мороз на утренник"
+  ],
+  "char_count": 9405,
+  "char_count_method": "text without HTML tags, whitespace collapsed",
+  "article_mode": "B",
+  "author_id": null,
+  "author_note": "Реестр authors-registry.json — заглушки другой тематики с dummy sameAs. Автор текста: редакция «Дед Мороз и Снегурочка». Подставной эксперт не назначался.",
+  "anchor_variants": [
+    "что спросить до утренника в детском саду",
+    "минуты выезда в сад 15 30 45 60 90",
+    "подарок каждому ребёнку может быть за доплату"
+  ],
+  "meta_ab": {
+    "title_seo": "Дед Мороз в детский сад в Нижнем: группа, минуты и подарок",
+    "title_ctr": "Дед Мороз в детский сад: что спросить до утренника",
+    "title_aeo": "Что спросить, перед тем как звать Деда Мороза в детский сад?",
+    "description_seo": "Утренник группы в Нижнем от 10 000 ₽. Минуты 15, 30, 45, 60 или 90. Сумма от даты и места. Сценарий «Волшебство стихий». Подарок может быть за доплату.",
+    "description_ctr": "Старая цена без минут не отвечает заведующей. Спросите дату, место, минуты и входит ли подарок каждому.",
+    "description_aeo": "В детский сад пара выезжает от 10 000 ₽. Минуты 15, 30, 45, 60 или 90, сумма зависит от даты и места. Это не визит на дом и не номер на банкете."
+  },
+  "geo_qa": {
+    "score": 92,
+    "verdict": "PASS",
+    "date": "2026-10-29",
+    "html_linter": "PASS",
+    "slop_score": "PASS",
+    "cannibalization": "PASS",
+    "link_verify": "pass",
+    "core_eeat_lite": "19/20",
+    "fact_check": "PASS",
+    "volume_gap": false,
+    "volume_note": "9405 знаков, внутри 8500–9500. Сетку минут, медиану сада и чужие рубли не дописывали."
+  },
+  "cover_family": "macro_detail",
+  "cover_status": "COVER_BLOCKER",
+  "publish_status": "not_published",
+  "deploy_mode": "local-only",
+  "allow_publish": "no",
+  "linked_landing": "/ded-moroz-v-detskij-sad/"
+}

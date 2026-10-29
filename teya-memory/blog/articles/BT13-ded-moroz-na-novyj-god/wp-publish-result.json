@@ -1,0 +1,11 @@
+{
+  "status": "not_published",
+  "reason": "allow_publish=no",
+  "deploy_mode": "local-only",
+  "allow_publish": "no",
+  "topic_id": "BT13",
+  "slug": "ded-moroz-na-novyj-god",
+  "date": "2026-10-29",
+  "wordpress": "not_called",
+  "note": "Директор поставил publish: no. WordPress не вызывался. excalibur-wp-publish не запускался."
+}

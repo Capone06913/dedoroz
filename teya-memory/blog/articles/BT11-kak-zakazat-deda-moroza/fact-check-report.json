@@ -1,0 +1,101 @@
+{
+  "article": "C:/Users/sasha/Desktop/dedoroz/teya-memory/blog/articles/BT11-kak-zakazat-deda-moroza/article.html",
+  "fact_bank_source": "C:/Users/sasha/Desktop/dedoroz/teya-memory/research/fact-bank.md",
+  "verdict": "pass",
+  "total_extracted_facts": 13,
+  "verified_facts_count": 9,
+  "unverified_facts_count": 4,
+  "facts": [
+    {
+      "fact": "2025",
+      "kind": "date_or_year",
+      "context": ", когда вечер уже стоит в графике зала. В декабре 2025 фраза «заказать деда мороза» дала в городе 648 пок",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2026",
+      "kind": "date_or_year",
+      "context": "Арзамас, Кстово и остальная область. До 1 декабря 2026 цена города и области одна. В декабре 2025 та же ф",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "25 минут",
+      "kind": "metric_or_duration",
+      "context": "в паузу между подачами. Короткий выход длится 20–25 минут и до 1 декабря 2026 стоит 14 920 ₽. Внутри появле",
+      "verified": true,
+      "reason": "Numerical value '25' matched in fact-bank context"
+    },
+    {
+      "fact": "30 минут",
+      "kind": "metric_or_duration",
+      "context": "ь. Куплета нет. Куплет поёт один из пары в шоу на 30 минут за 19 920 ₽ и во встрече у входа на час за 24 920",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "648",
+      "kind": "large_number",
+      "context": "е 2025 фраза «заказать деда мороза» дала в городе 648 показов. 564 из них открыли с телефона, это 87%. П",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "564",
+      "kind": "large_number",
+      "context": "«заказать деда мороза» дала в городе 648 показов. 564 из них открыли с телефона, это 87%. Показ не равен",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "134",
+      "kind": "large_number",
+      "context": "ен брони. «Вызов деда мороза» в том же месяце дал 134 показа. Оба запроса ведут в один разговор, не в дв",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "227",
+      "kind": "large_number",
+      "context": "ноябре 2025 «стоимость деда мороза» в городе дала 227 показов, в декабре — 134. «Заказать» вырос с 372 в",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "372",
+      "kind": "large_number",
+      "context": "227 показов, в декабре — 134. «Заказать» вырос с 372 в ноябре до 648 в декабре. Первый звонок поэтому д",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "14 920",
+      "kind": "large_number",
+      "context": "ыход длится 20–25 минут и до 1 декабря 2026 стоит 14 920 ₽. Внутри появление к сидящим гостям, тост с имен",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "19 920",
+      "kind": "large_number",
+      "context": "ет. Куплет поёт один из пары в шоу на 30 минут за 19 920 ₽ и во встрече у входа на час за 24 920 ₽. Минус",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "24 920",
+      "kind": "large_number",
+      "context": "минут за 19 920 ₽ и во встрече у входа на час за 24 920 ₽. Минус ставят с флешки, со звука площадки или с",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "34 920",
+      "kind": "large_number",
+      "context": "дого стола. Час по столам до 1 декабря 2026 стоит 34 920 ₽ и сцену не держит. У стола имя, короткий тост,",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "article": "c:/Users/sasha/Desktop/dedoroz/teya-memory/blog/articles/BT07-ded-moroz-na-korporativ-ne-utrennik/article.html",
+  "fact_bank_source": "c:/Users/sasha/Desktop/dedoroz/teya-memory/research/fact-bank.md",
+  "verdict": "pass",
+  "total_extracted_facts": 9,
+  "verified_facts_count": 5,
+  "unverified_facts_count": 4,
+  "facts": [
+    {
+      "fact": "2026",
+      "kind": "date_or_year",
+      "context": "лости, без политики, без темы войны. До 1 декабря 2026 формат выбирают по задаче зала, не по вывеске. Стр",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2025",
+      "kind": "date_or_year",
+      "context": "что номер разъедется в детский хоровод. В декабре 2025 фраза «дед мороз в ресторан» в городе дала 0 показ",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "30 минут",
+      "kind": "metric_or_duration",
+      "context": "бы официанты не несли горячее через центр. Шоу на 30 минут добавляет живой куплет. Поёт один из пары. Минус",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "25 минут",
+      "kind": "metric_or_duration",
+      "context": "не два прайса. Доплаты за образ нет. В выходе 20–25 минут нет живого куплета. Welcome не обходит каждый сто",
+      "verified": true,
+      "reason": "Numerical value '25' matched in fact-bank context"
+    },
+    {
+      "fact": "60 минут",
+      "kind": "metric_or_duration",
+      "context": ", конкурсы, фокус, предсказание и подарок Welcome 60 минут, 24 920 ₽ Сначала порог, пока гости входят, затем",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "14 920",
+      "kind": "large_number",
+      "context": "уты и цена Когда зал уже сидит Выход 20–25 минут, 14 920 ₽ Тост между подачами, интерактив с мест, общее ф",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "19 920",
+      "kind": "large_number",
+      "context": "актив с мест, общее фото. Песни нет Шоу 30 минут, 19 920 ₽ Всё из выхода плюс куплет, конкурсы, фокус, пре",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "24 920",
+      "kind": "large_number",
+      "context": ", фокус, предсказание и подарок Welcome 60 минут, 24 920 ₽ Сначала порог, пока гости входят, затем то же ш",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "34 920",
+      "kind": "large_number",
+      "context": "шоу. Не обход каждого стола По столикам 60 минут, 34 920 ₽ Имя, шутка и фото у стола. Номера в центре нет.",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    }
+  ]
+}

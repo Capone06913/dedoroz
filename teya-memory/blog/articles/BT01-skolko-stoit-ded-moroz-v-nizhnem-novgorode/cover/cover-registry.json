@@ -1,0 +1,24 @@
+{
+  "topic_id": "BT01",
+  "slug": "skolko-stoit-ded-moroz-v-nizhnem-novgorode",
+  "status": "COVER_BLOCKER",
+  "cover_family": "macro_detail",
+  "local_path": null,
+  "generated_at": null,
+  "tool_required": "gpt-image-2",
+  "tool_present_in_user_mcp_kv": false,
+  "tools_seen_instead": [
+    "flux2-pro-text-to-image",
+    "flux2-pro-image-to-image",
+    "grok-imagine",
+    "nano_banana_pro",
+    "seedream-4_5",
+    "z-image"
+  ],
+  "substitution": "not_used",
+  "faces_generated": false,
+  "prompt_source": "teya-memory/design/AURA_BLOG_COVER_PROMPTS.json",
+  "prompt_file_status": "awaiting_topics",
+  "topic_scene_descriptor": null,
+  "reason": "В user-mcp-kv нет gpt-image-2. AURA_BLOG_COVER_PROMPTS.json не содержит сцен: topics пуст. Подмена моделью и рисование лиц запрещены. Текст статьи сдан без обложки."
+}

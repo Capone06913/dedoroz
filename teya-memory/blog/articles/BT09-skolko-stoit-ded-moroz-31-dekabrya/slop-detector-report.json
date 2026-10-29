@@ -1,0 +1,18 @@
+{
+  "verdict": "pass",
+  "total_slop_hits": 0,
+  "slop_hits": [],
+  "total_over_long_sentences": 1,
+  "over_long_sentences": [
+    {
+      "sentence": "Формат Минуты До 1 декабря 2026 Куплет Где стоит пара Выход 20–25 14 920 ₽ нет зал, между подачами Шоу 30 19 920 ₽ один, под минус зал, гости видят номер Welcome 60 24 920 ₽ да, уже в зале порог, затем шоу По столикам 60 34 920 ₽ нет стол, не центр зала Выход за 14 920 ₽ длится 20–25 минут: появление, тост, интерактив со столов и общее фото",
+      "word_count": 48
+    }
+  ],
+  "readability": {
+    "score": 73.9,
+    "level": "Easy (Standard modern readable web content)",
+    "avg_sentence_len": 7.6,
+    "avg_syllables_per_word": 2.0
+  }
+}

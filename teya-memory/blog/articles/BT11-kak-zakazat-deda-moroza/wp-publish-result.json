@@ -1,0 +1,10 @@
+{
+  "topic_id": "BT11",
+  "slug": "kak-zakazat-deda-moroza",
+  "status": "not_published",
+  "allow_publish": "no",
+  "deploy_mode": "local-only",
+  "wordpress": "not_called",
+  "reason": "publish: no. Домен не куплен. WordPress не вызывался.",
+  "date": "2026-10-29"
+}

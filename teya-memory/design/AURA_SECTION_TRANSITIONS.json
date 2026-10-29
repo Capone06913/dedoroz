@@ -1,0 +1,60 @@
+{
+  "transitions": [
+    {
+      "id": "transition-hero-to-program",
+      "from_section": "hero",
+      "to_section": "restaurant-program",
+      "type": "hard-cut",
+      "geometry": "Сцена кончается на границе вьюпорта. Фото не заезжает на следующую секцию. Дальше ночная колонка и светлый список форматов.",
+      "layers": "Кадр внутри сцены, следующая секция начинается ниже",
+      "implementation": "css-background",
+      "desktop": "overlap 0",
+      "tablet": "overlap 0",
+      "mobile": "overlap 0, кадр остаётся фоном всей первой секции",
+      "source_reference": "отказ заказчика 28 октября 2026: не письмо и не открытка с заездом фото",
+      "must_replicate": true
+    },
+    {
+      "id": "transition-program-to-halls",
+      "from_section": "restaurant-program",
+      "to_section": "halls",
+      "type": "hard-cut",
+      "geometry": "После списка форматов сразу сетка кадров на всю ширину. Один кадр не выступает карточкой из текста.",
+      "layers": "сетка на фоне #141218",
+      "implementation": "css-grid",
+      "desktop": "пять клеток разного размера",
+      "tablet": "сетка схлопывается, кадры остаются кадрами",
+      "mobile": "столбец кадров разной высоты, не абзац с одной фото",
+      "source_reference": "залы как сетка, не колонка письма",
+      "must_replicate": true
+    },
+    {
+      "id": "transition-halls-to-documents",
+      "from_section": "halls",
+      "to_section": "documents",
+      "type": "layered-background",
+      "geometry": "Прямой край, смена фона на #EFE6D8",
+      "layers": "фон секции",
+      "implementation": "css-background",
+      "desktop": "прямая",
+      "tablet": "прямая",
+      "mobile": "прямая",
+      "source_reference": "документы — бумага, не фигурный разделитель",
+      "must_replicate": true
+    },
+    {
+      "id": "transition-documents-to-booking",
+      "from_section": "documents",
+      "to_section": "booking",
+      "type": "hard-cut",
+      "geometry": "Резкий переход слоновой кости в ночь #141218, без диагонали",
+      "layers": "фон",
+      "implementation": "css-background",
+      "desktop": "на всю ширину",
+      "tablet": "на всю ширину",
+      "mobile": "на всю ширину, запас снизу под липкий телефон",
+      "source_reference": "финальный звонок, свет площадки",
+      "must_replicate": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "mode": "no-external-reference",
+  "brief": "teya-memory/00-brief.md",
+  "offer": "docs/OFFER-KORPORATIV.md",
+  "frames_dir": "ded/",
+  "map": [
+    {"ui": "hero-show", "source": "ded/_3yUX6_JGfVSxXzR_Dw1KT2VyRMw6fYWSbwigr3t9H966zmR9aZkRISYFT3K-bRUiiDnXb9Yy7jil8nefktsHJC-.jpg"},
+    {"ui": "hero-classic", "source": "ded/kE_Bj5f-pRnkzgU4S8drxsOc7tCR0TFJOGCwTGBZLpMvVmUw-SPsf3_gAx89trELdg2ANm6xXwDGYzwsSB9ML19-.jpg"},
+    {"ui": "boundary-vocal", "source": "ded/0mAvSQ0NTjbReWpA2jg2ZBMpRyeShDDnxjEkx6PjNhAOz9OdU922vBLau98z6Opakj9nr59MCssz0MLFY7iLcXxc.jpg"},
+    {"ui": "welcome-guest", "source": "ded/Mbwo7z_crvUczFV99y0T3BjvH0RwleIY0XP-ZnMtNE2s5METzmTFYldH_c4deHcm-yo0_-C2_eRx3k-jkm6wxkrd.jpg"},
+    {"ui": "hall", "source": "ded/ZXYykbO-br5yxyg0Q9IWPknMEkEQuMEsDkZTZSVV8eqVJh84vHITd-Cy2zrTBzBHOhueRWzijhuvm5f00KIhFMD9.jpg"},
+    {"ui": "sound-stage", "source": "ded/0G-YK-mD9zbMxh6kgQe2V7geL8YtE8XS6lDD4s35dsxsKQC3Zn_QMESs_KFdn66HbkQROulRA2K2Dkbb8q6ECikS.jpg"},
+    {"ui": "documents-pair", "source": "ded/vFWxtai6DQoAmysSDsUENH8UHC54imzD0WrqUSZmMABUanCQmrzwXoN1LUJFd9A9Kvd2cpohdyAMt9aX6Sq-jMl6.jpg"},
+    {"ui": "family-page", "source": "ded/Q4FvDbLAkvouHodDurgFU6C1mgkCBrafzEGzUOyp2JXXYggK6-wJWOT9bYiAPJpFsW0wsy3MpiiMoPPGnKzaSGMN.jpg"},
+    {"ui": "family-with-child", "source": "ded/0jK7FhF1OuQwVc7YIuzkbGZuO5apinu51lEFAK84xZYnQ8iaNleiP6zVmM__jnegVisKI_OayooDNvZF1Q_y2TZx.jpg"}
+  ],
+  "held_out_of_homepage": [
+    "ded/6d2gV1qBqKhvfvJ89Ft5q4z04UKAIMYXAbobWAxgfP604K73UWJd0f8881VbMXe06i_FmHKr9eS0aUwpAxWkEsOu.jpg",
+    "ded/MbENlilvR-QCBTCnqQyroH6YoxX7ZkovQrwWqS7PhwLV8cchn118zzfen_kcM2eGcMSubNISrQJieV9-sQfOhsSB.jpg",
+    "ded/TtEF6C_vHkQzDLfTE9pXxW7K48sZnCkn5FyxpU5bIzy9qF6nYA7gBvs9pB72chXV1sVTgVR7QeQ4RaHXGfU1MaGx.jpg",
+    "ded/NjKVLlwaXIzEGmoOhaiTjWe7e1qcvRmQuMVCRML-mqpwQ4EBIXPciCG17HPnVrzuVb1QdjwWkp6DjM4txM2KL9BJ.jpg",
+    "ded/0jK7FhF1OuQwVc7YIuzkbGZuO5apinu51lEFAK84xZYnQ8iaNleiP6zVmM__jnegVisKI_OayooDNvZF1Q_y2TZx.jpg",
+    "ded/Q4FvDbLAkvouHodDurgFU6C1mgkCBrafzEGzUOyp2JXXYggK6-wJWOT9bYiAPJpFsW0wsy3MpiiMoPPGnKzaSGMN.jpg"
+  ]
+}

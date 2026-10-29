@@ -1,0 +1,18 @@
+{
+  "verdict": "pass",
+  "total_slop_hits": 0,
+  "slop_hits": [],
+  "total_over_long_sentences": 1,
+  "over_long_sentences": [
+    {
+      "sentence": "Что в зале 15–20 минут, 8 000 ₽ 30 минут, 10 000 ₽ Час Welcome, 15 000 ₽ Тост и фото да да да Фокус и предсказание один жест на выбор оба оба, без спешки Живой куплет нет да да Флешмоб нет если есть место если есть место Встреча у входа нет нет да Обход всех столов нет нет нет В прошлом прайсе фокус и предсказание шли как дополнение",
+      "word_count": 58
+    }
+  ],
+  "readability": {
+    "score": 73.5,
+    "level": "Easy (Standard modern readable web content)",
+    "avg_sentence_len": 8.7,
+    "avg_syllables_per_word": 2.0
+  }
+}

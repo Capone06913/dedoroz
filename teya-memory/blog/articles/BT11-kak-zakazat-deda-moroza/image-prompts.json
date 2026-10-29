@@ -1,0 +1,31 @@
+{
+  "topic_id": "BT11",
+  "aspect_ratio": "16:9",
+  "rule": "Оба лица целиком, запас над шапками, без текста на кадре, без детей крупным планом. Генерация, не фото из ded/.",
+  "slots": [
+    {
+      "file": "cover/cover.jpg",
+      "alt": "Дед Мороз и Снегурочка у входа в ресторан, оба лица в кадре.",
+      "caption": "Обложка карточки. Приезд к двери зала, не обрезка по подбородку.",
+      "prompt": "Photorealistic 16:9, Ded Moroz and Snegurochka at a restaurant entrance at night, both faces fully visible with headroom, red velvet and blue kokoshnik, no text."
+    },
+    {
+      "file": "cover/inline-01.jpg",
+      "alt": "Дед Мороз и Снегурочка в дверях ресторана, пока официанты несут горячее.",
+      "caption": "Приезд к горячему, не к торту.",
+      "prompt": "Photorealistic 16:9, pair arriving as waiters carry hot dishes, both faces fully visible, no text, no children close up."
+    },
+    {
+      "file": "cover/inline-02.jpg",
+      "alt": "Дед Мороз и Снегурочка с микрофонами в банкетном зале.",
+      "caption": "Живой куплет есть не в каждом выходе.",
+      "prompt": "Photorealistic 16:9, pair singing with microphones in a banquet hall, both faces fully visible, no lyrics, no text."
+    },
+    {
+      "file": "cover/inline-03.jpg",
+      "alt": "Администратор говорит с парой до выхода в зал.",
+      "caption": "Имена и запреты отдают до даты.",
+      "prompt": "Photorealistic 16:9, manager with a notebook talking to Ded Moroz and Snegurochka, all adult faces visible, no readable text, no children."
+    }
+  ]
+}

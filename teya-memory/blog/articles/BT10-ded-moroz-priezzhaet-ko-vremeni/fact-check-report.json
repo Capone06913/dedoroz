@@ -1,0 +1,66 @@
+{
+  "article": "C:/Users/sasha/Desktop/dedoroz/teya-memory/blog/articles/BT10-ded-moroz-priezzhaet-ko-vremeni/article.html",
+  "fact_bank_source": "C:/Users/sasha/Desktop/dedoroz/teya-memory/research/fact-bank.md",
+  "verdict": "pass",
+  "total_extracted_facts": 8,
+  "verified_facts_count": 4,
+  "unverified_facts_count": 4,
+  "facts": [
+    {
+      "fact": "2026",
+      "kind": "date_or_year",
+      "context": "ни из карточки темы и живого прайса на 29 октября 2026. Минут «приедем раньше на столько-то» в источника",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "25 минут",
+      "kind": "metric_or_duration",
+      "context": "а не «ближе к вечеру». Короткий выход занимает 20–25 минут. Шоу занимает 30 минут. Welcome и час по столам з",
+      "verified": true,
+      "reason": "Numerical value '25' matched in fact-bank context"
+    },
+    {
+      "fact": "30 минут",
+      "kind": "metric_or_duration",
+      "context": "Короткий выход занимает 20–25 минут. Шоу занимает 30 минут. Welcome и час по столам занимают по 60 минут. Эт",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "60 минут",
+      "kind": "metric_or_duration",
+      "context": "ает 30 минут. Welcome и час по столам занимают по 60 минут. Эти минуты и есть окно, которое проверяет Надежд",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "14 920",
+      "kind": "large_number",
+      "context": "бря 2026 Что занимает это время Выход 20–25 минут 14 920 ₽ Появление, тост, интерактив со столов, флешмоб",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "19 920",
+      "kind": "large_number",
+      "context": "есть место, общее фото. Куплета нет. Шоу 30 минут 19 920 ₽ Состав выхода плюс живой куплет под минус, конк",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "24 920",
+      "kind": "large_number",
+      "context": ", фокус, предсказания и подарки. Welcome 60 минут 24 920 ₽ Встреча у входа и шоу в зале. Каждый стол этот",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "34 920",
+      "kind": "large_number",
+      "context": "ый стол этот час не обходит. По столикам 60 минут 34 920 ₽ Имя, шутка и фото у стола. Номер в центре зала",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    }
+  ]
+}

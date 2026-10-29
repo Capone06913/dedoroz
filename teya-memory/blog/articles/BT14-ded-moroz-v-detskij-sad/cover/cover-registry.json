@@ -1,0 +1,9 @@
+{
+  "topic_id": "BT14",
+  "slug": "detskij-sad",
+  "cover_family": "live_photo_quad",
+  "source": "ded live photos 2x2 split",
+  "cover_png": "cover.jpg",
+  "inline": ["inline-01.jpg", "inline-02.jpg", "inline-03.jpg"],
+  "cover_alt_text": "Дед Мороз и Снегурочка у ёлки — кадр для разговора про утренник."
+}

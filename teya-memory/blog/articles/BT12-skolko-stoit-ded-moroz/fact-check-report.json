@@ -1,0 +1,171 @@
+{
+  "article": "c:/Users/sasha/Desktop/dedoroz/teya-memory/blog/articles/BT12-skolko-stoit-ded-moroz/article.html",
+  "fact_bank_source": "c:/Users/sasha/Desktop/dedoroz/teya-memory/research/fact-bank.md",
+  "verdict": "pass",
+  "total_extracted_facts": 23,
+  "verified_facts_count": 15,
+  "unverified_facts_count": 8,
+  "facts": [
+    {
+      "fact": "2026",
+      "kind": "date_or_year",
+      "context": "е открывают в ноябре, чем в декабре. До 1 декабря 2026 пара для кафе, ресторана и корпоратива стоит 14 92",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2025",
+      "kind": "date_or_year",
+      "context": "ороде фраза «стоимость» дала 227 показов в ноябре 2025 и 134 в декабре 2025. Октябрь того же года — 87. В",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2024",
+      "kind": "date_or_year",
+      "context": "екабре 2025. Октябрь того же года — 87. В декабре 2024 было 108, в декабре 2025 — 134. Съём Вордстата от",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2025 года",
+      "kind": "date_or_year",
+      "context": "бря 2026 на главной ещё висела пометка «до Нового 2025 года». Чужой старый сезон в смету не переносят. Медиан",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "25 минут",
+      "kind": "metric_or_duration",
+      "context": "нельзя поставить рядом с парой. Выход занимает 20–25 минут. Час у столов занимает 60. Это разные товары. Сра",
+      "verified": true,
+      "reason": "Numerical value '25' matched in fact-bank context"
+    },
+    {
+      "fact": "30 минут",
+      "kind": "metric_or_duration",
+      "context": "в мини стоил от 9 500 ₽. Слот короче стандарта на 30 минут, точные минуты не подписаны. «От» без вилки минут",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "14 920",
+      "kind": "large_number",
+      "context": "2026 пара для кафе, ресторана и корпоратива стоит 14 920, 19 920, 24 920 или 34 920 ₽. Сумма зависит от ми",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "19 920",
+      "kind": "large_number",
+      "context": "а для кафе, ресторана и корпоратива стоит 14 920, 19 920, 24 920 или 34 920 ₽. Сумма зависит от минут и от",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "24 920",
+      "kind": "large_number",
+      "context": "фе, ресторана и корпоратива стоит 14 920, 19 920, 24 920 или 34 920 ₽. Сумма зависит от минут и от места в",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "34 920",
+      "kind": "large_number",
+      "context": "на и корпоратива стоит 14 920, 19 920, 24 920 или 34 920 ₽. Сумма зависит от минут и от места в вечере, не",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "227",
+      "kind": "large_number",
+      "context": "у называют вслух. В городе фраза «стоимость» дала 227 показов в ноябре 2025 и 134 в декабре 2025. Октябр",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "134",
+      "kind": "large_number",
+      "context": "раза «стоимость» дала 227 показов в ноябре 2025 и 134 в декабре 2025. Октябрь того же года — 87. В декаб",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "372",
+      "kind": "large_number",
+      "context": "ь их нельзя. «Заказать деда мороза» шёл наоборот: 372 в ноябре и 648 в декабре. Цену ищут раньше заказа.",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "648",
+      "kind": "large_number",
+      "context": "аказать деда мороза» шёл наоборот: 372 в ноябре и 648 в декабре. Цену ищут раньше заказа. Читает это упр",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "6 000",
+      "kind": "large_number",
+      "context": "на orgs.biz держал офис, кафе и школу одной ценой 6 000 ₽. Минут не было. На Профи.ру в тот день было 19",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "3 000",
+      "kind": "large_number",
+      "context": "о. На Профи.ру в тот день было 19 анкет офиса: от 3 000 ₽, среднее по их тексту 5 000 ₽, верх 8 600 ₽. Дл",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "5 000",
+      "kind": "large_number",
+      "context": "19 анкет офиса: от 3 000 ₽, среднее по их тексту 5 000 ₽, верх 8 600 ₽. Длительность не указана. Это кар",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "8 600",
+      "kind": "large_number",
+      "context": "а: от 3 000 ₽, среднее по их тексту 5 000 ₽, верх 8 600 ₽. Длительность не указана. Это карточка, не кале",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "9 500",
+      "kind": "large_number",
+      "context": "алендарь пары. У «Зажги» корпоратив мини стоил от 9 500 ₽. Слот короче стандарта на 30 минут, точные мину",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "25 14 920",
+      "kind": "large_number",
+      "context": "я 2026 Чего в этих минутах нет Уже сидящий зал 20–25 14 920 ₽ куплета, порога, обхода каждого стола Шоу в зал",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "30 19 920",
+      "kind": "large_number",
+      "context": "куплета, порога, обхода каждого стола Шоу в зале 30 19 920 ₽ встречи у двери и обхода столов Порог, затем шо",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "60 24 920",
+      "kind": "large_number",
+      "context": "встречи у двери и обхода столов Порог, затем шоу 60 24 920 ₽ личного слова у каждого стола От стола к столу",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    },
+    {
+      "fact": "60 34 920",
+      "kind": "large_number",
+      "context": "₽ личного слова у каждого стола От стола к столу 60 34 920 ₽ номера в центре и куплета В минутах выхода — по",
+      "verified": false,
+      "reason": "No matching fact or number found in fact-bank"
+    }
+  ]
+}

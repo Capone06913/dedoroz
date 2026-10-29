@@ -1,0 +1,60 @@
+{
+  "page": "/",
+  "viewport_lock": "1440",
+  "client_rejection": "2026-10-28: заказчик отверг макет как письмо. Две колонки и стопка бежевых карточек сняты.",
+  "header": {
+    "position": "fixed-overlay-on-scene",
+    "height_px": 72,
+    "background": "#141218",
+    "wordmark": "Дед Мороз и Снегурочка",
+    "city": "Нижний Новгород",
+    "nav": ["Ресторан и кафе", "На дом", "Детский сад", "Контакты"],
+    "phone_display": "+7 (952) 451-65-79",
+    "phone_href": "tel:+79524516579",
+    "narrow_menu": "Кнопка открывает те же четыре пункта. Пункты не исчезают со страницы. Телефон в шапке остаётся."
+  },
+  "hero": {
+    "layout": "full-viewport-scene",
+    "rejected_layout": "email-two-columns-62-38",
+    "columns": null,
+    "min_height": "100svh",
+    "photo": "full-bleed cover under the header",
+    "photo_side": null,
+    "cards_side": null,
+    "prices_layout": "horizontal-row-on-bottom-edge",
+    "prices_surface": "rgba(20, 18, 24, 0.72) with 1px #C4A265 top rule",
+    "prices_not": "three solid white envelopes in a right column",
+    "cards_count": 3,
+    "cards_change_on_toggle": false,
+    "toggle_changes": ["frame", "one_line"],
+    "title_changes": false,
+    "one_line_show": "Пайетки. Зал на секунду стихает.",
+    "one_line_classic": "Классика. Образ собран по детали.",
+    "scrim": "bottom-weighted gradient so the line and the price rail stay readable",
+    "z_index": {"photo": 1, "scrim": 2, "copy": 3, "prices": 4, "header": 30},
+    "mobile_375": "price row stacks to one column on the same full-viewport photo, not a letter"
+  },
+  "prices": [
+    {"id": "exit", "minutes": "15-20", "rub": 8000, "vocal_included": false},
+    {"id": "show", "minutes": "30", "rub": 10000},
+    {"id": "welcome", "minutes": "60", "rub": 15000}
+  ],
+  "forbidden_on_first_screen_rub": [6500],
+  "below_fold": [
+    "restaurant-program-unequal-columns-no-single-photo",
+    "halls-frame-grid",
+    "home-and-kindergarten-split-widths",
+    "documents-narrow-measure",
+    "contacts-phone-and-form"
+  ],
+  "sticky_phone": {
+    "max_width_px": 767,
+    "height_px": 64,
+    "label": "Позвонить Надежде",
+    "display": "+7 (952) 451-65-79",
+    "href": "tel:+79524516579"
+  },
+  "motion_ms": 700,
+  "reduced_motion_ms": 0,
+  "overlap_hero_px": 0
+}

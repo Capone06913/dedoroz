@@ -1,0 +1,66 @@
+{
+  "article": "c:/Users/sasha/Desktop/dedoroz/teya-memory/blog/articles/BT02-chto-vhodit-v-korporativnyj-vyhod/article.html",
+  "fact_bank_source": "c:/Users/sasha/Desktop/dedoroz/teya-memory/research/fact-bank.md",
+  "verdict": "pass",
+  "total_extracted_facts": 8,
+  "verified_facts_count": 8,
+  "unverified_facts_count": 0,
+  "facts": [
+    {
+      "fact": "2026",
+      "kind": "date_or_year",
+      "context": "ня там, где на неё нет времени. Цены до 1 декабря 2026 здесь только привязка к минутам. Полная сетка дома",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2025",
+      "kind": "date_or_year",
+      "context": ". Фразу «дед мороз в ресторан» в городе в декабре 2025 искали 0 раз. Управляющий получает состав в перепи",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "20 минут",
+      "kind": "metric_or_duration",
+      "context": "одит разное число минут, не «номер вообще». За 15–20 минут пара в пайетках говорит тост, делает один жест и",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "30 минут",
+      "kind": "metric_or_duration",
+      "context": "т хронометраж не входят. Они начинаются со шоу на 30 минут за 10 000 ₽ и с Welcome на час за 15 000 ₽. Готов",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "10 000",
+      "kind": "large_number",
+      "context": "ж не входят. Они начинаются со шоу на 30 минут за 10 000 ₽ и с Welcome на час за 15 000 ₽. Готовый сценари",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "15 000",
+      "kind": "large_number",
+      "context": "шоу на 30 минут за 10 000 ₽ и с Welcome на час за 15 000 ₽. Готовый сценарий файлом статья не отдаёт. Запр",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "8 000",
+      "kind": "large_number",
+      "context": "уты ниже расписаны прямо. Что в зале 15–20 минут, 8 000 ₽ 30 минут, 10 000 ₽ Час Welcome, 15 000 ₽ Тост и",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "25 000",
+      "kind": "large_number",
+      "context": "и «по столикам» в прайсе нет. Чужой час обхода за 25 000 ₽ к Welcome не прибавляется и не обещается. Реком",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    }
+  ]
+}

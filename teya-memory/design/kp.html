@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Письмо · Дед Мороз и Снегурочка · Нижний Новгород</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&family=Marck+Script&family=Ruslan+Display&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #6E1A28;
+      --primary-hover: #54141E;
+      --on-primary: #FFF7F2;
+      --secondary: #1E4F86;
+      --background: #F7F1E8;
+      --on-background: #1A1210;
+      --surface: #FFFBF6;
+      --gold: #8A6232;
+      --night: #141218;
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #2a2422;
+      color: var(--on-background);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      line-height: 1.45;
+    }
+    .workspace {
+      display: grid;
+      grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+      gap: 28px;
+      justify-content: center;
+      align-items: start;
+      padding: 28px 20px 48px;
+    }
+    .desk, .codebox {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .desk { position: sticky; top: 20px; }
+    h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 32px;
+      font-weight: normal;
+      line-height: 1.05;
+    }
+    .lead { margin: 8px 0 0; font-size: 14px; }
+    label { display: grid; gap: 4px; margin-top: 16px; font-size: 13px; font-weight: 700; }
+    input, textarea {
+      width: 100%;
+      border: 1px solid #8A7564;
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--on-background);
+      font: 15px/1.4 Arial, Helvetica, sans-serif;
+      padding: 10px 12px;
+    }
+    textarea { min-height: 280px; resize: vertical; }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; }
+    button, .quiet {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 10px 14px;
+      border: 0;
+      border-radius: var(--radius);
+      background: var(--primary);
+      color: var(--on-primary);
+      font: 700 15px/1.2 Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    button:hover { background: var(--primary-hover); }
+    .quiet { background: transparent; color: var(--secondary); padding-left: 0; }
+    button:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible {
+      outline: 2px solid var(--secondary);
+      outline-offset: 3px;
+    }
+    #status { margin: 8px 0 0; min-height: 1.2em; font-size: 13px; }
+    .stage { display: grid; gap: 16px; }
+    #preview { width: 1120px; max-width: 100%; }
+    @media (max-width: 1100px) {
+      .workspace { grid-template-columns: 1fr; }
+      .desk { position: static; }
+      #preview { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="workspace">
+    <aside class="desk">
+      <h1>Письмо с предложением</h1>
+      <p class="lead">Четыре горизонтальных листа: приветствие, прогрев, цены, контакт. КП: <a href="kp-pdf.html">kp-pdf.html</a>.</p>
+      <label>Название зала или компании
+        <input id="hall" type="text" placeholder="Можно оставить пустым">
+      </label>
+      <div class="actions">
+        <button type="button" id="copy">Скопировать код</button>
+        <a class="quiet" href="kp-pdf.html">Открыть PDF-макет</a>
+      </div>
+      <p id="status" role="status"></p>
+    </aside>
+    <div class="stage">
+      <div id="preview"></div>
+      <div class="codebox">
+        <label>HTML для письма
+          <textarea id="code" readonly></textarea>
+        </label>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var hall = document.getElementById("hall");
+      var preview = document.getElementById("preview");
+      var code = document.getElementById("code");
+      var status = document.getElementById("status");
+
+      function esc(value) {
+        return value
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      var shotHall = "../../ded/_3yUX6_JGfVSxXzR_Dw1KT2VyRMw6fYWSbwigr3t9H966zmR9aZkRISYFT3K-bRUiiDnXb9Yy7jil8nefktsHJC-.jpg";
+      var shotClassic = "../../ded/0G-YK-mD9zbMxh6kgQe2V7geL8YtE8XS6lDD4s35dsxsKQC3Zn_QMESs_KFdn66HbkQROulRA2K2Dkbb8q6ECikS.jpg";
+      var shotHug = "../../ded/Mbwo7z_crvUczFV99y0T3BjvH0RwleIY0XP-ZnMtNE2s5METzmTFYldH_c4deHcm-yo0_-C2_eRx3k-jkm6wxkrd.jpg";
+
+      var face = {
+        title: 'font-family:"Ruslan Display",Georgia,serif;font-weight:400;color:#1A0507;',
+        script: 'font-family:"Marck Script",Georgia,serif;font-weight:400;color:#8E0610;',
+        text: 'font-family:Manrope,Arial,sans-serif;font-weight:500;color:#3C2418;',
+        kicker: 'font-family:Manrope,Arial,sans-serif;font-weight:600;font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:#9A7028;'
+      };
+
+      function shot(src, alt, w, h, pos) {
+        return '<img src="' + src + '" width="' + w + '" height="' + h + '" alt="' + alt + '" style="display:block;width:' + w + 'px;height:' + h + 'px;object-fit:cover;object-position:' + pos + ';border:0;">';
+      }
+
+      function letter(name) {
+        var greet = name
+          ? "Пишем для «" + esc(name) + "»."
+          : "Кафе, ресторан, корпоратив.";
+        var page1 = [
+          '<table role="presentation" width="1100" cellpadding="0" cellspacing="0" border="0" bgcolor="#3C0008" style="width:1100px;background:#3C0008;">',
+          '<tr><td style="font-size:0;line-height:0;">' + shot(shotHall, "Дед Мороз и Снегурочка в зале", 1100, 340, "center 35%") + '</td></tr>',
+          '<tr><td bgcolor="#FFF6EA" style="background:#FFF6EA;border-top:6px solid #E8B84A;padding:26px 36px 28px;">',
+          '<div style="' + face.kicker + '">Нижний Новгород · сезон 2026/2027</div>',
+          '<div style="margin-top:10px;' + face.title + 'font-size:46px;line-height:1.05;">Дед Мороз и Снегурочка</div>',
+          '<div style="margin-top:4px;' + face.script + 'font-size:32px;line-height:1.15;">Поющие артисты</div>',
+          '<div style="margin-top:14px;' + face.text + 'font-size:17px;line-height:1.5;max-width:720px;">' + greet + ' Выходим в зал живой парой: тост, имена, смех за столами. Пайетки или классика, цена одна. На дом не ездим.</div>',
+          '</td></tr>',
+          '</table>'
+        ].join("");
+
+        var page2 = [
+          '<table role="presentation" width="1100" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFF6EA" style="width:1100px;background:#FFF6EA;">',
+          '<tr>',
+          '<td width="520" valign="top" style="font-size:0;line-height:0;">' + shot(shotClassic, "Пара с микрофонами", 520, 430, "center 20%") + '</td>',
+          '<td valign="middle" style="padding:32px 36px 24px 32px;">',
+          '<div style="' + face.title + 'font-size:40px;line-height:1.08;">Зал на секунду стихает</div>',
+          '<div style="margin-top:6px;' + face.script + 'font-size:28px;line-height:1.2;">Гости сами поднимают телефоны</div>',
+          '<div style="margin-top:16px;' + face.text + 'font-size:17px;line-height:1.55;">Живая пара с микрофоном. Тост с именами собираем до даты, чтобы в зале было легко. Встаём между подачами: можно собрать всех, можно пройти по столам. Надежда на связи, приезжаем ко времени.</div>',
+          '</td>',
+          '</tr>',
+          '<tr><td colspan="2" bgcolor="#8E0610" style="background:#8E0610;padding:16px 28px 18px;">',
+          '<div style="' + face.kicker + 'color:#F5D078;">Уже выходили</div>',
+          '<div style="margin-top:4px;' + face.script + 'font-size:30px;line-height:1.2;color:#FFF6EA;">Ариель, Колокол, Наршараб, Онегин</div>',
+          '</td></tr>',
+          '</table>'
+        ].join("");
+
+        var page3 = [
+          '<table role="presentation" width="1100" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFF6EA" style="width:1100px;background:#FFF6EA;">',
+          '<tr><td style="padding:18px 22px 8px;">',
+          '<div style="' + face.kicker + '">Цены до 1 декабря 2026</div>',
+          '<div style="margin-top:6px;' + face.title + 'font-size:40px;line-height:1.05;">Четыре формата</div>',
+          '<div style="margin-top:2px;' + face.script + 'font-size:26px;">пайетки или классика, сумма та же</div>',
+          '</td></tr>',
+          '<tr><td bgcolor="#E8B84A" style="background:#E8B84A;padding:6px;">',
+          '<table role="presentation" width="100%" cellpadding="0" cellspacing="6" border="0" bgcolor="#E8B84A">',
+          '<tr>',
+          priceCell("cream", "14 920 ₽", "20–25 минут", "Собирает весь зал", "Тост, смех, общее фото", "Между подачами, песни нет", "Дата и зал"),
+          priceCell("warm", "19 920 ₽", "30 минут", "Поющие артисты", "Тост и живой куплет", "Полчаса, зал не бросаем", "Дата и зал"),
+          '</tr><tr>',
+          priceCell("warm", "24 920 ₽", "60 минут", "Праздник с порога", "Встреча у двери и песня", "Час, с порога до зала", "Дата и зал", true),
+          priceCell("night", "34 920 ₽", "60 минут", "Лично у каждого стола", "Имя и фото у каждого стола", "Час, банкет не стопорится", "Имена заранее", true),
+          '</tr></table>',
+          '</td></tr>',
+          '<tr><td style="padding:12px 22px 16px;' + face.text + 'font-size:15px;line-height:1.45;">',
+          '31 декабря и 1 января сумму называем при брони. После 1 декабря цена зависит от даты.',
+          '</td></tr>',
+          '</table>'
+        ].join("");
+
+        var page4 = [
+          '<table role="presentation" width="1100" cellpadding="0" cellspacing="0" border="0" bgcolor="#3C0008" style="width:1100px;background:#3C0008;border-top:6px solid #E8B84A;">',
+          '<tr>',
+          '<td valign="middle" style="padding:40px 40px 40px 44px;">',
+          '<div style="' + face.script + 'font-size:34px;color:#F5D078;">Надежда</div>',
+          '<div style="margin-top:10px;' + face.title + 'font-size:36px;line-height:1.15;color:#FFF6EA;"><a href="tel:+79524516579" style="color:#FFF6EA;text-decoration:none;">+7 (952) 451-65-79</a></div>',
+          '<div style="margin-top:14px;' + face.text + 'font-size:16px;line-height:1.5;color:#FFF6EA;">Назовите дату, площадку и формат. Если это время занято, подберём другое в тот же день.</div>',
+          '<div style="margin-top:14px;' + face.text + 'font-size:16px;line-height:1.6;">',
+          '<a href="mailto:ded.moroz.nnovgorod@yandex.ru" style="color:#F5D078;text-decoration:none;font-weight:500;">ded.moroz.nnovgorod@yandex.ru</a><br>',
+          '<a href="https://vk.ru/ded.moroz.nnov" style="color:#FFF6EA;text-decoration:none;font-weight:500;">vk.ru/ded.moroz.nnov</a>',
+          '</div>',
+          '</td>',
+          '<td width="460" valign="top" style="font-size:0;line-height:0;">' + shot(shotHug, "С гостями", 460, 380, "center 40%") + '</td>',
+          '</tr>',
+          '</table>'
+        ].join("");
+
+        return [
+          '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1A0507" style="background:#1A0507;">',
+          '<tr><td align="center" style="padding:20px 8px 12px;">' + page1 + '</td></tr>',
+          '<tr><td align="center" style="padding:12px 8px;">' + page2 + '</td></tr>',
+          '<tr><td align="center" style="padding:12px 8px;">' + page3 + '</td></tr>',
+          '<tr><td align="center" style="padding:12px 8px 28px;">' + page4 + '</td></tr>',
+          '</table>'
+        ].join("");
+      }
+
+      function valueRow(label, text, ink, accent) {
+        return '<tr>' +
+          '<td width="72" valign="top" style="padding:2px 8px 2px 0;font-family:Manrope,Arial,sans-serif;font-weight:600;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:' + accent + ';">' + label + '</td>' +
+          '<td valign="top" style="padding:2px 0;font-family:Manrope,Arial,sans-serif;font-weight:500;font-size:14px;line-height:1.35;color:' + ink + ';">' + text + '</td>' +
+          '</tr>';
+      }
+
+      function priceCell(tone, price, time, title, hall, when, ask, song) {
+        var bg = "#FFFCF7";
+        var ink = "#1A0507";
+        var accent = "#8E0610";
+        if (tone === "warm") bg = "#FFF3DC";
+        if (tone === "night") {
+          bg = "#5A0810";
+          ink = "#FFF6EA";
+          accent = "#F5D078";
+        }
+        var badge = song
+          ? '<div style="margin-top:8px;"><span style="display:inline-block;padding:2px 10px;background:#E8B84A;' + face.script + 'font-size:22px;color:#1A0507;">живой куплет</span></div>'
+          : "";
+        return [
+          '<td width="50%" valign="top" bgcolor="' + bg + '" style="background:' + bg + ';padding:16px 16px 14px;">',
+          '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>',
+          '<td style="font-family:Manrope,Arial,sans-serif;font-weight:600;font-size:14px;letter-spacing:0.04em;color:' + accent + ';">' + time + '</td>',
+          '<td align="right" style="' + face.title + 'font-size:32px;line-height:1;color:' + accent + ';white-space:nowrap;">' + price + '</td>',
+          '</tr></table>',
+          badge,
+          '<div style="margin-top:8px;' + face.title + 'font-size:24px;line-height:1.1;color:' + ink + ';">' + title + '</div>',
+          '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:8px;">',
+          valueRow("Зал", hall, ink, accent),
+          valueRow("Время", when, ink, accent),
+          valueRow("От вас", ask, ink, accent),
+          '</table>',
+          '</td>'
+        ].join("");
+      }
+
+      function paint() {
+
+        var html = letter(hall.value.trim());
+        preview.innerHTML = html;
+        code.value = html;
+        status.textContent = "";
+      }
+
+      hall.addEventListener("input", paint);
+      document.getElementById("copy").addEventListener("click", function () {
+        code.focus();
+        code.select();
+        var copied = false;
+        try { copied = document.execCommand("copy"); } catch (error) { copied = false; }
+        if (!copied && navigator.clipboard) {
+          navigator.clipboard.writeText(code.value).then(function () {
+            status.textContent = "HTML скопирован. Вставьте в письмо как HTML.";
+          }).catch(function () {
+            status.textContent = "Выделите код в поле ниже и скопируйте вручную.";
+          });
+          return;
+        }
+        status.textContent = copied
+          ? "HTML скопирован. Вставьте в письмо как HTML."
+          : "Выделите код в поле ниже и скопируйте вручную.";
+      });
+      paint();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "topic_id": "BT07",
+  "slug": "ded-moroz-na-korporativ-ne-utrennik",
+  "h1": "Дед Мороз на корпоратив в Нижнем Новгороде: это не детский утренник",
+  "primary_query": "дед мороз на корпоратив не утренник",
+  "secondary_queries": [
+    "дед мороз на банкет взрослый зал"
+  ],
+  "char_count": 9410,
+  "char_count_method": "text without HTML tags, whitespace collapsed",
+  "article_mode": "B",
+  "author_id": null,
+  "author_note": "Реестр authors-registry.json — заглушки другой тематики с dummy sameAs. Автор текста: редакция «Дед Мороз и Снегурочка». Подставной эксперт не назначался.",
+  "anchor_variants": [
+    "дед мороз на корпоратив это не утренник",
+    "взрослый зал вместо сценария сада",
+    "какой формат деда мороза для сидящего зала"
+  ],
+  "meta_ab": {
+    "title_seo": "Дед Мороз на корпоратив в Нижнем Новгороде: это не детский утренник",
+    "title_ctr": "Дед Мороз на корпоратив в Нижнем: взрослый зал, не сценарий для сада",
+    "title_aeo": "Дед Мороз на корпоратив в Нижнем Новгороде — это детский утренник?",
+    "description_seo": "На корпоративе, в кафе и ресторане Нижнего Новгорода пара ведёт взрослый зал: тост, конкурс и контакт со столов. Сценарий сада на эти страницы не ставится.",
+    "description_ctr": "Хоровод как в саду на банкет не переносят. До 1 декабря: выход 14 920 ₽, шоу 19 920 ₽, Welcome 24 920 ₽, по столикам 34 920 ₽.",
+    "description_aeo": "На корпоратив в Нижнем Новгороде пара выходит ко взрослому или смешанному залу. Детский сценарий «Волшебство стихий» на кафе и ресторан не ставится."
+  },
+  "geo_qa": {
+    "score": 92,
+    "verdict": "PASS",
+    "date": "2026-10-29",
+    "html_linter": "PASS",
+    "slop_score": "PASS",
+    "cannibalization": "PASS",
+    "link_verify": "pass",
+    "core_eeat_lite": "19/20",
+    "volume_gap": false,
+    "fact_check": "PASS",
+    "fact_check_note": "Четыре цены 14920/19920/24920/34920 нет в fact-bank от 28 октября. Подтверждены живым прайсом сайта 29 октября 2026."
+  },
+  "cover_family": "macro_detail",
+  "cover_status": "COVER_BLOCKER",
+  "deploy_mode": "local-only",
+  "allow_publish": "no",
+  "publish": "no",
+  "interlink_apply": "skipped_other_articles_locked"
+}

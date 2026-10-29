@@ -1,0 +1,11 @@
+{
+  "status": "not_published",
+  "reason": "allow_publish=no",
+  "deploy_mode": "local-only",
+  "allow_publish": "no",
+  "topic_id": "BT01",
+  "slug": "skolko-stoit-ded-moroz-v-nizhnem-novgorode",
+  "date": "2026-10-28",
+  "wordpress": "not_called",
+  "note": "Хостинга и купленного домена нет. excalibur-wp-publish не запускался."
+}
