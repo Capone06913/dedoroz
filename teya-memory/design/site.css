@@ -997,42 +997,42 @@ footer a { font-weight: 800; }
   .cards, .related, .contact { grid-template-columns: 1fr; }
   .hero-track,
   .hero-track .scene {
-    height: auto;
-    min-height: 0;
-  }
-  .hero-track .scene {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 78px;
-    padding-bottom: 28px;
-  }
-  .hero-track .scene-video--phone { display: none; }
-  .hero-track .scene-video--wide {
+    height: 100svh;
+    min-height: 100svh;
+    height: 100dvh;
+    min-height: 100dvh;
     display: block;
-    position: relative;
-    inset: auto;
+    padding: 0;
+  }
+  .hero-track .scene-video--wide { display: none; }
+  .hero-track .scene-video--phone {
+    display: block;
+    position: absolute;
+    inset: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     max-width: none;
     max-height: none;
     margin: 0;
     transform: none;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center center;
   }
-  .scene-shade { display: none; }
+  .scene-shade {
+    display: block;
+    background: linear-gradient(to top, rgba(60,0,8,.72) 0%, rgba(60,0,8,0) 42%);
+  }
   .scene-copy {
-    position: relative;
-    left: auto;
-    right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
     top: auto;
-    bottom: auto;
+    bottom: 0;
     width: 100%;
-    padding: 16px 18px 8px;
+    padding: 28px 18px max(24px, env(safe-area-inset-bottom));
     align-items: center;
     text-align: center;
-    background: none;
+    background: linear-gradient(to top, rgba(60,0,8,.88) 0%, rgba(60,0,8,0) 100%);
   }
   .hero-cta { align-self: center; }
   .scene-copy h1 { font-size: clamp(30px, 7.4vw, 46px); }
