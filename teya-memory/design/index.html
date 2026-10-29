@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Marck+Script&family=Ruslan+Display&display=swap" rel="stylesheet">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <link rel="stylesheet" href="site.css?v=mobile10">
+  <link rel="stylesheet" href="site.css?v=mobile11">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -137,8 +137,11 @@
   <main id="top">
     <div class="hero-track" data-hero-track>
       <section class="scene" data-scene aria-label="Первый экран">
-        <video class="scene-video" autoplay muted loop playsinline webkit-playsinline preload="auto" width="2560" height="1440" poster="hero-hook-poster.jpg?v=real2">
+        <video class="scene-video scene-video--wide" autoplay muted loop playsinline webkit-playsinline preload="auto" width="2560" height="1440" poster="hero-hook-poster.jpg?v=real2">
           <source src="hero-hook-2k.mp4?v=cover2" type="video/mp4">
+        </video>
+        <video class="scene-video scene-video--phone" autoplay muted loop playsinline webkit-playsinline preload="auto" width="1080" height="2400" poster="hero-hook-poster.jpg?v=real2">
+          <source src="hero-hook-mobile.mp4?v=1" type="video/mp4">
         </video>
         <div class="scene-shade"></div>
         <div class="scene-copy">
@@ -455,6 +458,6 @@
     </section>
   </main>
   <a class="sticky" href="tel:+79524516579">Позвонить · 8 (952) 451-65-79</a>
-  <script src="site.js?v=faq3"></script>
+  <script src="site.js?v=hero-phone"></script>
 </body>
 </html>

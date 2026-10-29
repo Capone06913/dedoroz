@@ -69,6 +69,7 @@ button, input, select, textarea { font: inherit; }
   position: absolute; inset: 0; width: 100%; height: 100%;
   object-fit: cover; object-position: center center;
 }
+.scene-video--phone { display: none; }
 .scene-photo {
   position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0;
 }
@@ -1001,16 +1002,19 @@ footer a { font-weight: 800; }
     height: 100dvh;
     min-height: 100dvh;
   }
-  .hero-track .scene-video {
+  .hero-track .scene-video--wide { display: none; }
+  .hero-track .scene-video--phone {
+    display: block;
     position: absolute;
-    top: 50%;
-    left: 0;
+    inset: 0;
     width: 100%;
-    height: auto;
-    max-height: 100%;
-    transform: translateY(-50%);
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    transform: none;
     object-fit: contain;
     object-position: center center;
+    background: #3C0008;
   }
   .scene-shade { background: linear-gradient(to top, rgba(60,0,8,.45) 0%, rgba(60,0,8,0) 42%); }
   .scene-copy {
@@ -1322,7 +1326,7 @@ main#top #kontakty {
   scroll-margin-top: calc(var(--header) + 16px);
 }
 .news-band { text-align: left; }
-.news-list { max-width: 980px; margin: 8px auto 0; }
+.news-list { max-width: none; margin: 8px 0 0; }
 .news-item {
   display: grid;
   grid-template-columns: 240px minmax(0, 1fr);
@@ -1705,9 +1709,15 @@ main#top #kontakty {
 }
 .article-read {
   text-align: left;
-  max-width: 860px;
-  margin: 0 auto;
+  max-width: none;
+  width: 100%;
+  margin: 0;
   padding-top: calc(var(--header) + 36px);
+}
+.article-read .faq {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
 }
 .article-read h1 {
   margin: 0 0 22px;

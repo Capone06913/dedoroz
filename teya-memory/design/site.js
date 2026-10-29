@@ -5,7 +5,14 @@
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var look = "show";
   var timer = 0;
-  var heroVideo = document.querySelector(".scene-video");
+  function visibleHero() {
+    var list = document.querySelectorAll(".scene-video");
+    for (var i = 0; i < list.length; i++) {
+      if (window.getComputedStyle(list[i]).display !== "none") return list[i];
+    }
+    return list[0] || null;
+  }
+  var heroVideo = visibleHero();
   if (heroVideo && reduced) {
     heroVideo.removeAttribute("autoplay");
     heroVideo.pause();
@@ -319,7 +326,7 @@
   var arrival = document.getElementById("arrival");
   if (arrival) {
     document.body.classList.add("arrival-open");
-    var hero = document.querySelector(".scene-video");
+    var hero = visibleHero();
     var closed = false;
     function openSite() {
       if (closed) return;
