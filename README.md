@@ -17,6 +17,7 @@ WordPress-тема (`teya-memory/wp/theme/dedmoroz-nn/`) пока только �
 
 ```powershell
 cd teya-memory\design
+if (-not (Test-Path ded)) { Copy-Item -Recurse ..\..\ded .\ded }
 python -m http.server 8080
 ```
 

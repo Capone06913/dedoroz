@@ -17,5 +17,5 @@ teya-memory/teya.env.local
 .npm/
 node_modules/
 
-# Local agent / IDE (optional heavy caches)
-.cursor/projects/
+# Local copy of repo photos for static server / Pages (source: ../../ded)
+teya-memory/design/ded/
