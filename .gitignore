@@ -10,6 +10,7 @@ desktop.ini
 .env.*
 *.pem
 credentials.json
+teya-memory/teya.env.local
 
 # Logs & caches
 *.log
