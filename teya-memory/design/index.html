@@ -8,7 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Marck+Script&family=Ruslan+Display&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="site.css?v=mobile3">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <link rel="stylesheet" href="site.css?v=mobile7">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -136,8 +137,8 @@
   <main id="top">
     <div class="hero-track" data-hero-track>
       <section class="scene" data-scene aria-label="Первый экран">
-        <video class="scene-video" autoplay muted loop playsinline preload="auto" poster="hero-hook-poster.jpg?v=real2">
-          <source src="hero-hook-2k.mp4?v=2k" type="video/mp4">
+        <video class="scene-video" autoplay muted loop playsinline webkit-playsinline preload="auto" width="2560" height="1440" poster="hero-hook-poster.jpg?v=real2">
+          <source src="hero-hook-2k.mp4?v=cover2" type="video/mp4">
         </video>
         <div class="scene-shade"></div>
         <div class="scene-copy">
@@ -396,42 +397,23 @@
       <p class="gallery-lightbox-counter" id="gallery-lightbox-counter"></p>
     </div>
 
-    <section class="band news-band" id="novosti">
-      <p class="news-band-eyebrow">Для HR и офис-менеджеров</p>
-      <h2>Коротко о заказе</h2>
-      <p class="story-lead">Четыре заметки: что сказать по телефону, какую сумму заложить в бюджет и чем корпоратив отличается от сада.</p>
-      <div class="news-preview-grid">
-        <a class="news-card news-card--lead" href="blog-kak-zakazat.html">
-          <div class="news-card-media">
-            <img src="news/kak-zakazat/cover.jpg?v=real2" alt="Дед Мороз и Снегурочка у входа в ресторан.">
-          </div>
-          <div class="news-card-body">
-            <p class="news-card-topic news-card-topic--on-dark">Как заказать</p>
-            <h3>Как заказать Деда Мороза в Нижнем Новгороде</h3>
-            <p>Что сказать по телефону, если корпоратив поручили вам: дата, минуты и песня.</p>
-            <span>Читать статью</span>
-          </div>
-        </a>
-        <a class="news-card news-card--side" href="blog-skolko-stoit.html">
-          <p class="news-card-topic">Бюджет</p>
-          <h3>Сколько стоит Дед Мороз в Нижнем Новгороде</h3>
-          <p class="news-card-excerpt">Суммы до 1 декабря и почему 31-е называют отдельно.</p>
-          <span class="news-card-more">Читать</span>
-        </a>
-        <a class="news-card news-card--side" href="blog-novyj-god.html">
-          <p class="news-card-topic">Новый год</p>
-          <h3>Дед Мороз на Новый год: заказ или песня</h3>
-          <p class="news-card-excerpt">Нужен выезд в зал, а в поиске — текст песни.</p>
-          <span class="news-card-more">Читать</span>
-        </a>
-        <a class="news-card news-card--side" href="blog-detskij-sad.html">
-          <p class="news-card-topic">Не корпоратив</p>
-          <h3>Дед Мороз в детский сад: что спросить до утренника</h3>
-          <p class="news-card-excerpt">Минуты, подарок и отличие от банкета.</p>
-          <span class="news-card-more">Читать</span>
-        </a>
+    <section class="band" id="novosti">
+      <h2>Если корпоратив поручили вам</h2>
+      <p class="story-lead">Игры для коллег, подарки сотрудникам и вечер, от которого не хочется отказаться.</p>
+      <a class="lead-story" href="blog-kak-zakazat.html">
+        <img src="news/kak-zakazat/cover.jpg?v=real2" alt="Дед Мороз и Снегурочка у входа в ресторан, Нижний Новгород.">
+        <span class="lead-story-copy">
+          <span class="lead-story-label">Главное</span>
+          <strong>Игры для корпоратива, которые можно переслать коллегам</strong>
+          <span>Взрослый зал, не утренник. Игра есть в шоу на 30 минут, в коротком тосте её нет.</span>
+          <span class="lead-story-go">Читать</span>
+        </span>
+      </a>
+      <div class="lead-links">
+        <a href="blog-skolko-stoit.html"><span>Подарки</span><strong>Что дарят сотрудникам</strong></a>
+        <a href="blog-novyj-god.html"><span>Вечер</span><strong>Корпоратив, который вспоминают</strong></a>
+        <a href="blog-detskij-sad.html"><span>Команда</span><strong>Если люди боятся отказаться</strong></a>
       </div>
-      <a class="news-all" href="blog.html">Все статьи</a>
     </section>
 
     <section class="band" id="voprosy">
