@@ -997,9 +997,7 @@ footer a { font-weight: 800; }
   .cards, .related, .contact { grid-template-columns: 1fr; }
   .scene { height: 100svh; }
   .hero-track { height: 100svh; }
-  .hero-track .scene-video--wide { display: none; }
-  .hero-track .scene-video--phone {
-    display: block;
+  .scene-video {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -1007,7 +1005,7 @@ footer a { font-weight: 800; }
     margin: 0;
     transform: none;
     object-fit: cover;
-    object-position: center center;
+    object-position: center 18%;
   }
   .scene-shade { display: block; background: linear-gradient(to top, rgba(60,0,8,.35), rgba(60,0,8,0) 40%); }
   .scene-copy {
