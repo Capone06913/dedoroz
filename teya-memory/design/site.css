@@ -1826,12 +1826,13 @@ main#top #kontakty {
   main#top { --block-gap: 48px; --block-side: 20px; }
 }
 
+.band #otzyvy-list.venue-grid,
 #otzyvy-list.venue-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
-  max-width: none;
-  margin: 0 0 clamp(28px, 4vw, 40px);
+  max-width: 1080px;
+  margin: 28px auto 0;
   text-align: left;
 }
 #otzyvy-list .venue-card-media {
@@ -1862,5 +1863,6 @@ article.venue-card:hover {
   border: 1px solid rgba(142, 6, 16, .12);
 }
 @media (max-width: 980px) {
+  .band #otzyvy-list.venue-grid,
   #otzyvy-list.venue-grid { grid-template-columns: 1fr; }
 }
