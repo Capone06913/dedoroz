@@ -16,70 +16,70 @@
     {
       "fact": "25 минут",
       "kind": "metric_or_duration",
-      "context": "До 1 декабря 2026 на сайте четыре суммы. Выход 20–25 минут стоит 14 920 ₽. Шоу 30 минут стоит 19 920 ₽. Welc",
+      "context": "До 1 декабря 2026 на сайте четыре суммы. Выход 20–25 минут стоит 14 370 ₽. Шоу 30 минут стоит 19 640 ₽. Welc",
       "verified": true,
       "reason": "Numerical value '25' matched in fact-bank context"
     },
     {
       "fact": "30 минут",
       "kind": "metric_or_duration",
-      "context": "тыре суммы. Выход 20–25 минут стоит 14 920 ₽. Шоу 30 минут стоит 19 920 ₽. Welcome на час стоит 24 920 ₽. Об",
+      "context": "тыре суммы. Выход 20–25 минут стоит 14 370 ₽. Шоу 30 минут стоит 19 640 ₽. Welcome на час стоит 26 480 ₽. Об",
       "verified": true,
       "reason": "Exact match found in fact-bank"
     },
     {
-      "fact": "14 920",
+      "fact": "14 370",
       "kind": "large_number",
-      "context": "26 на сайте четыре суммы. Выход 20–25 минут стоит 14 920 ₽. Шоу 30 минут стоит 19 920 ₽. Welcome на час ст",
+      "context": "26 на сайте четыре суммы. Выход 20–25 минут стоит 14 370 ₽. Шоу 30 минут стоит 19 640 ₽. Welcome на час ст",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "19 920",
+      "fact": "19 640",
       "kind": "large_number",
-      "context": "од 20–25 минут стоит 14 920 ₽. Шоу 30 минут стоит 19 920 ₽. Welcome на час стоит 24 920 ₽. Обход столов ст",
+      "context": "од 20–25 минут стоит 14 370 ₽. Шоу 30 минут стоит 19 640 ₽. Welcome на час стоит 26 480 ₽. Обход столов ст",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "24 920",
+      "fact": "26 480",
       "kind": "large_number",
-      "context": "Шоу 30 минут стоит 19 920 ₽. Welcome на час стоит 24 920 ₽. Обход столов стоит 34 920 ₽. На 31 декабря и н",
+      "context": "Шоу 30 минут стоит 19 640 ₽. Welcome на час стоит 26 480 ₽. Обход столов стоит 37 900 ₽. На 31 декабря и н",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "34 920",
+      "fact": "37 900",
       "kind": "large_number",
-      "context": "Welcome на час стоит 24 920 ₽. Обход столов стоит 34 920 ₽. На 31 декабря и на 1 января эти цифры не перен",
+      "context": "Welcome на час стоит 26 480 ₽. Обход столов стоит 37 900 ₽. На 31 декабря и на 1 января эти цифры не перен",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "25 14 920",
+      "fact": "25 14 370",
       "kind": "large_number",
-      "context": "До 1 декабря 2026 Куплет Где стоит пара Выход 20–25 14 920 ₽ нет зал, между подачами Шоу 30 19 920 ₽ один, п",
+      "context": "До 1 декабря 2026 Куплет Где стоит пара Выход 20–25 14 370 ₽ нет зал, между подачами Шоу 30 19 640 ₽ один, п",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "30 19 920",
+      "fact": "30 19 640",
       "kind": "large_number",
-      "context": "Выход 20–25 14 920 ₽ нет зал, между подачами Шоу 30 19 920 ₽ один, под минус зал, гости видят номер Welcome",
+      "context": "Выход 20–25 14 370 ₽ нет зал, между подачами Шоу 30 19 640 ₽ один, под минус зал, гости видят номер Welcome",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "60 24 920",
+      "fact": "60 26 480",
       "kind": "large_number",
-      "context": "₽ один, под минус зал, гости видят номер Welcome 60 24 920 ₽ да, уже в зале порог, затем шоу По столикам 60",
+      "context": "₽ один, под минус зал, гости видят номер Welcome 60 26 480 ₽ да, уже в зале порог, затем шоу По столикам 60",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "60 34 920",
+      "fact": "60 37 900",
       "kind": "large_number",
-      "context": "920 ₽ да, уже в зале порог, затем шоу По столикам 60 34 920 ₽ нет стол, не центр зала Выход за 14 920 ₽ длитс",
+      "context": "920 ₽ да, уже в зале порог, затем шоу По столикам 60 37 900 ₽ нет стол, не центр зала Выход за 14 370 ₽ длитс",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     }

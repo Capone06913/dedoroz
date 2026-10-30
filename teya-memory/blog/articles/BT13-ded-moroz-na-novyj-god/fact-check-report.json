@@ -23,14 +23,14 @@
     {
       "fact": "25 минут",
       "kind": "metric_or_duration",
-      "context": "ечере, не от слова «Новый год» в заявке. Выход 20–25 минут стоит 14 920 ₽. Куплета в нём нет. Шоу 30 минут с",
+      "context": "ечере, не от слова «Новый год» в заявке. Выход 20–25 минут стоит 14 370 ₽. Куплета в нём нет. Шоу 30 минут с",
       "verified": true,
       "reason": "Numerical value '25' matched in fact-bank context"
     },
     {
       "fact": "30 минут",
       "kind": "metric_or_duration",
-      "context": "0–25 минут стоит 14 920 ₽. Куплета в нём нет. Шоу 30 минут стоит 19 920 ₽. Один из пары поёт куплет. Welcome",
+      "context": "0–25 минут стоит 14 370 ₽. Куплета в нём нет. Шоу 30 минут стоит 19 640 ₽. Один из пары поёт куплет. Welcome",
       "verified": true,
       "reason": "Exact match found in fact-bank"
     },
@@ -63,30 +63,30 @@
       "reason": "Exact match found in fact-bank"
     },
     {
-      "fact": "14 920",
+      "fact": "14 370",
       "kind": "large_number",
-      "context": "ова «Новый год» в заявке. Выход 20–25 минут стоит 14 920 ₽. Куплета в нём нет. Шоу 30 минут стоит 19 920 ₽",
+      "context": "ова «Новый год» в заявке. Выход 20–25 минут стоит 14 370 ₽. Куплета в нём нет. Шоу 30 минут стоит 19 640 ₽",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "19 920",
+      "fact": "19 640",
       "kind": "large_number",
-      "context": "т 14 920 ₽. Куплета в нём нет. Шоу 30 минут стоит 19 920 ₽. Один из пары поёт куплет. Welcome на час стоит",
+      "context": "т 14 370 ₽. Куплета в нём нет. Шоу 30 минут стоит 19 640 ₽. Один из пары поёт куплет. Welcome на час стоит",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "24 920",
+      "fact": "26 480",
       "kind": "large_number",
-      "context": "₽. Один из пары поёт куплет. Welcome на час стоит 24 920 ₽. Тот же куплет звучит уже в зале. Час по столик",
+      "context": "₽. Один из пары поёт куплет. Welcome на час стоит 26 480 ₽. Тот же куплет звучит уже в зале. Час по столик",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "34 920",
+      "fact": "37 900",
       "kind": "large_number",
-      "context": "е куплет звучит уже в зале. Час по столикам стоит 34 920 ₽. Сцены с куплетом там нет. Это не четыре карточ",
+      "context": "е куплет звучит уже в зале. Час по столикам стоит 37 900 ₽. Сцены с куплетом там нет. Это не четыре карточ",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     }
