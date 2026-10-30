@@ -11,7 +11,7 @@
 | `email-kp/` | Отдельное HTML-письмо для рассылки |
 | `ded/` | Исходные живые фото |
 
-WordPress-тема (`teya-memory/wp/theme/dedmoroz-nn/`) пока только с ассетами; прод на `dedmoroz.ru` — следующий этап.
+WordPress-тема (`teya-memory/wp/theme/dedmoroz-nn/`) пока только с ассетами; прод на `dedmoroz52.ru` — следующий этап.
 
 ## Локальный просмотр
 
