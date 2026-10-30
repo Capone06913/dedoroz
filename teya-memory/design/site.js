@@ -135,6 +135,9 @@
       img.src = slide.src;
       img.alt = clone ? "" : slide.alt;
       img.draggable = false;
+      img.loading = "lazy";
+      if (slide.width) img.width = slide.width;
+      if (slide.height) img.height = slide.height;
       button.appendChild(img);
       return button;
     }
@@ -342,13 +345,17 @@
         if (arrival.parentNode) arrival.parentNode.removeChild(arrival);
       }, 700);
     }
-    if (hero) {
-      hero.pause();
+    var heroShown = hero && window.getComputedStyle(hero).display !== "none" && !reduced;
+    if (heroShown) {
+      hero.addEventListener("canplay", openSite, { once: true });
       if (hero.readyState >= 3) openSite();
-      else hero.addEventListener("canplay", openSite, { once: true });
+      else {
+        var kick = hero.play();
+        if (kick && kick.catch) kick.catch(function () {});
+      }
     }
     window.addEventListener("load", function () {
-      if (!hero || hero.readyState >= 3) openSite();
+      if (!heroShown || hero.readyState >= 3) openSite();
     });
     window.setTimeout(openSite, 12000);
   }

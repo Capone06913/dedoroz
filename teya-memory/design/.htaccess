@@ -1,0 +1,25 @@
+# Канонический хост: https://dedmoroz52.ru
+# Тот же путь сохраняется: /kafe.html остаётся /kafe.html.
+# Панель хостинга (сертификат и галка «перенаправлять на HTTPS») — основной способ.
+# Эти правила — запасной вариант для Apache. Если после включения галки
+# сайт уходит в цикл редиректов, смотрите README.md.
+
+RewriteEngine On
+
+# /index.html → /  (один адрес главной)
+RewriteRule ^index\.html$ https://dedmoroz52.ru/ [L,R=301]
+
+# new-yaer.ru и www.new-yaer.ru → тот же путь на dedmoroz52.ru
+RewriteCond %{HTTP_HOST} ^(www\.)?new-yaer\.ru$ [NC]
+RewriteRule ^ https://dedmoroz52.ru%{REQUEST_URI} [L,R=301]
+
+# www.dedmoroz52.ru → без www, сразу https
+RewriteCond %{HTTP_HOST} ^www\.dedmoroz52\.ru$ [NC]
+RewriteRule ^ https://dedmoroz52.ru%{REQUEST_URI} [L,R=301]
+
+# http → https. Не срабатывает, если прокси уже отдал HTTPS
+# (HTTPS=on, ENV:HTTPS=on или X-Forwarded-Proto: https).
+RewriteCond %{HTTPS} !=on
+RewriteCond %{ENV:HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://dedmoroz52.ru%{REQUEST_URI} [L,R=301]

@@ -1,0 +1,47 @@
+# Пример для nginx / VPS. Сертификаты подставьте свои.
+# На обычном виртуальном хостинге в РФ чаще достаточно галок в панели и .htaccess.
+# Не включайте одновременно «редирект в панели» и этот конфиг, если получится цикл.
+
+# Порт 80: любой из четырёх имён сразу на https без www.
+server {
+    listen 80;
+    server_name dedmoroz52.ru www.dedmoroz52.ru new-yaer.ru www.new-yaer.ru;
+    return 301 https://dedmoroz52.ru$request_uri;
+}
+
+# Чужие имена на 443 → канонический хост, путь тот же.
+server {
+    listen 443 ssl http2;
+    server_name www.dedmoroz52.ru new-yaer.ru www.new-yaer.ru;
+
+    ssl_certificate     /etc/ssl/dedmoroz52/fullchain.pem;
+    ssl_certificate_key /etc/ssl/dedmoroz52/privkey.pem;
+
+    location = /index.html {
+        return 301 https://dedmoroz52.ru/;
+    }
+
+    location / {
+        return 301 https://dedmoroz52.ru$request_uri;
+    }
+}
+
+# Сайт.
+server {
+    listen 443 ssl http2;
+    server_name dedmoroz52.ru;
+
+    ssl_certificate     /etc/ssl/dedmoroz52/fullchain.pem;
+    ssl_certificate_key /etc/ssl/dedmoroz52/privkey.pem;
+
+    root /var/www/dedmoroz52;
+    index index.html;
+
+    location = /index.html {
+        return 301 https://dedmoroz52.ru/;
+    }
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
