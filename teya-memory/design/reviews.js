@@ -23,19 +23,19 @@
   function eventLabel(item) {
     var event = String(item.event_type || "").trim();
     if (isPublished(item) && event) return event;
-    return "тип события появится с отзывом";
+    return "ожидаем оригинал";
   }
 
   function dateLabel(item) {
     var date = String(item.date || "").trim();
     if (isPublished(item) && date) return date;
-    return "карточка-заглушка";
+    return "слот открыт";
   }
 
   function bodyText(item) {
     var text = String(item.text || "").trim();
     if (isPublished(item) && text) return text;
-    return "Оригинальный текст, имя и дата появятся здесь. Компанию называем только с согласием. Оценку не выдумываем.";
+    return "Сюда встанет дословный текст, имя и дата. Компанию называем только с согласием. Оценку не выдумываем.";
   }
 
   function mediaHtml(item) {
@@ -43,7 +43,7 @@
     if (isPublished(item) && photo) {
       return '<img src="' + esc(photo) + '" alt="">';
     }
-    return '<p class="script">скоро</p>';
+    return "";
   }
 
   function shotHtml(item) {
@@ -56,14 +56,31 @@
     );
   }
 
-  function cardHtml(item) {
-    var published = isPublished(item);
+  function placeholderHtml(item) {
     return (
-      '<article class="venue-card' + (published ? "" : " is-placeholder") + '"' +
+      '<article class="venue-card is-placeholder review-wait"' +
         (item.id ? ' data-review-id="' + esc(item.id) + '"' : "") + ">" +
-        '<div class="venue-card-media" aria-hidden="' + (published && item.photo ? "false" : "true") + '">' +
-          mediaHtml(item) +
+        '<div class="review-wait-body">' +
+          '<p class="review-wait-mark" aria-hidden="true">«</p>' +
+          '<p class="venue-kicker">' + esc(eventLabel(item)) + "</p>" +
+          '<h3 class="venue-name">' + esc(authorLabel(item)) + "</h3>" +
+          '<p class="venue-text">' + esc(bodyText(item)) + "</p>" +
+          '<p class="venue-link">' + esc(dateLabel(item)) + "</p>" +
         "</div>" +
+      "</article>"
+    );
+  }
+
+  function cardHtml(item) {
+    if (!isPublished(item)) return placeholderHtml(item);
+    var photo = String(item.photo || "").trim();
+    var media = photo
+      ? '<div class="venue-card-media">' + mediaHtml(item) + "</div>"
+      : "";
+    return (
+      '<article class="venue-card"' +
+        (item.id ? ' data-review-id="' + esc(item.id) + '"' : "") + ">" +
+        media +
         '<div class="venue-card-body">' +
           '<p class="venue-kicker">' + esc(eventLabel(item)) + "</p>" +
           '<h3 class="venue-name">' + esc(authorLabel(item)) + "</h3>" +
