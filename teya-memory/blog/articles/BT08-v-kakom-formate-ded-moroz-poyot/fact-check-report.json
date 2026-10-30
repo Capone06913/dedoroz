@@ -16,49 +16,49 @@
     {
       "fact": "30 минут",
       "kind": "metric_or_duration",
-      "context": "бря 2026 один из пары берёт живой куплет в шоу на 30 минут за 19 920 ₽ и во Welcome на час за 24 920 ₽. В вы",
+      "context": "бря 2026 один из пары берёт живой куплет в шоу на 30 минут за 19 640 ₽ и во Welcome на час за 26 480 ₽. В вы",
       "verified": true,
       "reason": "Exact match found in fact-bank"
     },
     {
       "fact": "25 минут",
       "kind": "metric_or_duration",
-      "context": "₽ и во Welcome на час за 24 920 ₽. В выходе на 20–25 минут за 14 920 ₽ песни нет: там тост, интерактив со ст",
+      "context": "₽ и во Welcome на час за 26 480 ₽. В выходе на 20–25 минут за 14 370 ₽ песни нет: там тост, интерактив со ст",
       "verified": true,
       "reason": "Numerical value '25' matched in fact-bank context"
     },
     {
       "fact": "60 минут",
       "kind": "metric_or_duration",
-      "context": "минут, 14 920 ₽ Шоу, 30 минут, 19 920 ₽ Welcome, 60 минут, 24 920 ₽ По столикам, 60 минут, 34 920 ₽ Живой к",
+      "context": "минут, 14 370 ₽ Шоу, 30 минут, 19 640 ₽ Welcome, 60 минут, 26 480 ₽ По столикам, 60 минут, 37 900 ₽ Живой к",
       "verified": true,
       "reason": "Exact match found in fact-bank"
     },
     {
-      "fact": "19 920",
+      "fact": "19 640",
       "kind": "large_number",
-      "context": "н из пары берёт живой куплет в шоу на 30 минут за 19 920 ₽ и во Welcome на час за 24 920 ₽. В выходе на 20",
+      "context": "н из пары берёт живой куплет в шоу на 30 минут за 19 640 ₽ и во Welcome на час за 26 480 ₽. В выходе на 20",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "24 920",
+      "fact": "26 480",
       "kind": "large_number",
-      "context": "оу на 30 минут за 19 920 ₽ и во Welcome на час за 24 920 ₽. В выходе на 20–25 минут за 14 920 ₽ песни нет:",
+      "context": "оу на 30 минут за 19 640 ₽ и во Welcome на час за 26 480 ₽. В выходе на 20–25 минут за 14 370 ₽ песни нет:",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "14 920",
+      "fact": "14 370",
       "kind": "large_number",
-      "context": "me на час за 24 920 ₽. В выходе на 20–25 минут за 14 920 ₽ песни нет: там тост, интерактив со столов и общ",
+      "context": "me на час за 26 480 ₽. В выходе на 20–25 минут за 14 370 ₽ песни нет: там тост, интерактив со столов и общ",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     },
     {
-      "fact": "34 920",
+      "fact": "37 900",
       "kind": "large_number",
-      "context": "рактив со столов и общее фото. Час по столикам за 34 920 ₽ идёт у стола и сцену с куплетом не держит. Ниже",
+      "context": "рактив со столов и общее фото. Час по столикам за 37 900 ₽ идёт у стола и сцену с куплетом не держит. Ниже",
       "verified": false,
       "reason": "No matching fact or number found in fact-bank"
     }

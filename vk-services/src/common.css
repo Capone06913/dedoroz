@@ -1,0 +1,14 @@
+@font-face{font-family:'Ruslan Display';src:url(fonts/RuslanDisplay.ttf)}
+@font-face{font-family:'Marck Script';src:url(fonts/MarckScript.ttf)}
+@font-face{font-family:'Manrope';src:url(fonts/Manrope.ttf);font-weight:200 800}
+:root{--red:#E10600;--burg:#8E0610;--deep:#3C0008;--ink:#1A0507;--gold:#F0C14D;--cream:#FFF6EA}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:var(--ink);overflow:hidden}
+.stage{position:relative;overflow:hidden;background:var(--ink)}
+.stage img.ph{position:absolute}
+.ov{position:absolute;inset:0}
+.kick{font-family:'Marck Script';color:var(--gold);line-height:1}
+.h{font-family:'Ruslan Display';color:var(--cream);text-transform:uppercase;line-height:1.05;letter-spacing:.02em;text-shadow:0 3px 18px rgba(26,5,7,.6)}
+.h .i{font-family:'Marck Script';color:var(--gold);text-transform:none;letter-spacing:0}
+.sm{font-family:'Manrope';font-weight:800;text-transform:uppercase;color:var(--cream);letter-spacing:.16em}
+.rule{height:2px;background:var(--gold);opacity:.85}
