@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /kp.html
+Disallow: /kp-pdf.html
+Disallow: /news/bodies/
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&ysclid&gclid&fbclid&_openstat&from
+
+Host: https://dedmoroz52.ru
+Sitemap: https://dedmoroz52.ru/sitemap.xml
