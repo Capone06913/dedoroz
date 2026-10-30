@@ -1825,3 +1825,42 @@ main#top #kontakty {
 @media (max-width: 980px) {
   main#top { --block-gap: 48px; --block-side: 20px; }
 }
+
+#otzyvy-list.venue-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  max-width: none;
+  margin: 0 0 clamp(28px, 4vw, 40px);
+  text-align: left;
+}
+#otzyvy-list .venue-card-media {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(165deg, var(--white) 0%, #fff9f0 100%);
+}
+#otzyvy-list .venue-card-media:not(:has(img))::after { display: none; }
+#otzyvy-list .venue-card-media .script {
+  margin: 0;
+  font-size: clamp(28px, 2.4vw, 36px);
+  color: var(--red);
+}
+article.venue-card { cursor: default; }
+article.venue-card:hover {
+  transform: none;
+  outline: none;
+  box-shadow: 0 16px 40px rgba(26, 5, 7, .08);
+}
+.review-shot {
+  display: block;
+  margin: 0 0 12px;
+}
+.review-shot img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  border: 1px solid rgba(142, 6, 16, .12);
+}
+@media (max-width: 980px) {
+  #otzyvy-list.venue-grid { grid-template-columns: 1fr; }
+}

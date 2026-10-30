@@ -1,0 +1,58 @@
+{
+  "_comment": "Источник правды для страницы /otzyvy.html. Публикуются только записи со status=published, непустым text и согласием. Schema.org Review рисуется только для них. Чужие отзывы, Профи.ру и выдуманные имена/оценки запрещены.",
+  "_source": "Искать оригиналы в материалах прошлой компании: https://vk.ru/ded.moroz.nnov. Скриншоты класть в папку reviews/shots/ и прописывать путь относительно этой HTML-папки.",
+  "_how_to_publish": {
+    "status": "published",
+    "author": "Имя (или имя + тип события, если нет согласия на фамилию/компанию)",
+    "consent_to_name": true,
+    "event_type": "корпоратив / ресторан / кафе",
+    "date": "YYYY-MM-DD",
+    "text": "Дословный текст отзыва",
+    "photo": "необязательно: путь к реальному кадру из репозитория, не сток и не нейросеть",
+    "screenshot": "необязательно: reviews/shots/имя.jpg",
+    "rating": "ставить число 1–5 только если оценка есть в оригинале, иначе null",
+    "source_url": "необязательно: ссылка на исходный пост"
+  },
+  "organization": "Дед Мороз и Снегурочка | Нижний Новгород",
+  "reviews": [
+    {
+      "id": "slot-1",
+      "status": "placeholder",
+      "author": "",
+      "consent_to_name": false,
+      "event_type": "",
+      "date": "",
+      "text": "",
+      "photo": "",
+      "screenshot": "",
+      "rating": null,
+      "source_url": ""
+    },
+    {
+      "id": "slot-2",
+      "status": "placeholder",
+      "author": "",
+      "consent_to_name": false,
+      "event_type": "",
+      "date": "",
+      "text": "",
+      "photo": "",
+      "screenshot": "",
+      "rating": null,
+      "source_url": ""
+    },
+    {
+      "id": "slot-3",
+      "status": "placeholder",
+      "author": "",
+      "consent_to_name": false,
+      "event_type": "",
+      "date": "",
+      "text": "",
+      "photo": "",
+      "screenshot": "",
+      "rating": null,
+      "source_url": ""
+    }
+  ]
+}
