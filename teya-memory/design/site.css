@@ -200,6 +200,9 @@ button, input, select, textarea { font: inherit; }
   display: grid; grid-template-columns: 1fr 1fr; gap: clamp(20px, 3vw, 40px);
   align-items: start; text-align: left;
 }
+.story-panels:has(> :only-child) {
+  grid-template-columns: 1fr;
+}
 .story-panel {
   padding: clamp(24px, 3vw, 32px);
   background: var(--white);
